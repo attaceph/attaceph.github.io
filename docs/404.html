@@ -9,6 +9,10 @@ function g_load() {
     v_uri = v_uri.substring(8);
     location = 'https://github.com/attaceph' + v_uri;
     return;
+  } else if ( v_uri.indexOf( '/leetcode/' ) === 0 ) {
+    v_uri = v_uri.substring(8);
+    location = 'https://github.com/attaceph/leetcode' + v_uri;
+    return;
   }
 }
   </script>
@@ -24,7 +28,7 @@ body {
 }
   </style>
 </head>
-</body onload="g_load()">
+<body onload="g_load()">
 =======_===_======================_=====
   __ _| |_| |_ __ _   __ ___ _ __| |_  
  / _` |  _|  _/ _` | / _/ -_) '_ \ ' \ 
