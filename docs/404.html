@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>[attaceph] PHP Developer</title>
+  <script>
+function g_load() {
+  let v_uri = location + '';
+  v_uri = v_uri.replaceAll('https://attaceph.github.io', '').replaceAll('http://attaceph.github.io', '');
+  if ( v_uri.indexOf( '/github/' ) === 0 ) {
+    v_uri = v_uri.substring(8);
+    location = 'https://github.com/attaceph' + v_uri;
+    return;
+  }
+  location = 'https://github.com/attaceph';
+}
+  </script>
+</head>
+</body onload="g_load()">
+</body>
+</html>
