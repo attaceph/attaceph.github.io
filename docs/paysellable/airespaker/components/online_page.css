@@ -9,7 +9,7 @@
 
 
 
-#ge-app .online-page {
+.online-page {
   //position: fixed;
   //top: 0px;
   //left: 0px;
@@ -31,7 +31,7 @@
   overflow: auto;
 }
 
-#ge-app .online-page .online-page-inner {
+.online-page .online-page-inner {
   min-width: 640px;
   font-family: monospace !important;
   font-size: 14px !important;
@@ -39,7 +39,7 @@
   white-space: pre-wrap !important;
 }
 
-#ge-app .online-button {
+.online-button {
   padding: 5px 10px 5px 10px !important;
   font-family: monospace !important;
   font-size: 12px !important;
@@ -52,7 +52,7 @@
   cursor: hand !important;
 }
 
-#ge-app .online-button-2 {
+.online-button-2 {
   padding: 5px 10px 5px 10px !important;
   font-family: monospace !important;
   font-size: 12px !important;
