@@ -7,531 +7,531 @@
  *
  */
 
-#ge-app .md_h2 {
-  font-family: monospace;
-  font-size: 18px;
-  margin-top: 10px;
-  padding-bottom: 5px;
-  border-bottom: dashed 3px gainsboro;
-  color: black;
+.md_h2 {
+  font-family: monospace !important;
+  font-size: 18px !important;
+  margin-top: 10px !important;
+  padding-bottom: 5px !important;
+  border-bottom: dashed 3px gainsboro !important;
+  color: black !important;
 }
 
-#ge-app .md_h3 {
-  font-family: monospace;
-  font-size: 14px;
-  margin-top: 10px;
-  padding-bottom: 5px;
-  border-bottom: dotted 2px gainsboro;
-  color: black;
+.md_h3 {
+  font-family: monospace !important;
+  font-size: 14px !important;
+  margin-top: 10px !important;
+  padding-bottom: 5px !important;
+  border-bottom: dotted 2px gainsboro !important;
+  color: black !important;
 }
 
-#ge-app .md_h4 {
-  font-family: monospace;
-  font-size: 12px;
-  margin-top: 10px;
-  padding-bottom: 5px;
-  border-bottom: dashed 1px gainsboro;
-  color: black;
+.md_h4 {
+  font-family: monospace !important;
+  font-size: 12px !important;
+  margin-top: 10px !important;
+  padding-bottom: 5px !important;
+  border-bottom: dashed 1px gainsboro !important;
+  color: black !important;
 }
 
-#ge-app .md_bl {
-  font-family: monospace;
-  font-size: 12px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-left: 10px;
-  //border-left: dotted 5px gainsboro;
-  color: black;
+.md_bl {
+  font-family: monospace !important;
+  font-size: 12px !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  padding-left: 10px !important;
+  //border-left: dotted 5px gainsboro !important;
+  color: black !important;
 }
 
-#ge-app .md_bl::before {
-  content: "  ";
-  position: relative;
-  left: 0px;
-  top: -2px;
-  background-color: gainsboro;
-  margin-right: 5px;
-  font-size: 7px;
-  border-radius: 50%;
+.md_bl::before {
+  content: "  " !important;
+  position: relative !important;
+  left: 0px !important;
+  top: -2px !important;
+  background-color: gainsboro !important;
+  margin-right: 5px !important;
+  font-size: 7px !important;
+  border-radius: 50% !important;
 }
 
-#ge-app .language-python {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-python {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-java {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-java {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-css {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-css {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-html {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-html {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-javascript {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-javascript {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-typescript {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-typescript {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-actionscript {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-actionscript {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-apacheconf {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-apacheconf {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-apache {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-apache {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-applescript {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-applescript {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-osascript {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-osascript {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-arcade {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-arcade {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-asciidoc {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-asciidoc {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-aspectj {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-aspectj {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-xml {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-xml {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-xhtml {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-xhtml {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-rss {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-rss {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-atom {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-atom {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-xjb {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-xjb {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-xsd {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-xsd {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-xsl {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-xsl {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-plist {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-plist {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-svg {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-svg {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-exec-svg {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-exec-svg {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-adoc {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-adoc {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-vue {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-vue {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-cmd {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-cmd {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-php {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-php {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-csharp {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-csharp {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-c {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-c {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-cpp {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-cpp {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-bash {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-bash {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-sh {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-sh {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-zsh {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-zsh {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-jsp {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-jsp {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-kotlin {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-kotlin {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-sql {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-sql {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-rust {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-rust {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-ruby {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-ruby {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-1c {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-1c {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-perl {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-perl {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-r {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-r {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-abnf {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-abnf {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-json {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-json {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-ada {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-ada {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-asm {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-asm {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-jsx {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-jsx {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
-#ge-app .language-unknown {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  border: dashed 2px gainsboro;
-  border-left: dashed 5px gainsboro;
-  font-family: monospace;
-  font-size: 12px;
+.language-unknown {
+  display: block !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: dashed 2px gainsboro !important;
+  border-left: dashed 5px gainsboro !important;
+  font-family: monospace !important;
+  font-size: 12px !important;
 }
 
