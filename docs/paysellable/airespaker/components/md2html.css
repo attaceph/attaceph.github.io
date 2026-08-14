@@ -7,7 +7,7 @@
  *
  */
 
-.md_h2 {
+#ge-app .md_h2 {
   font-family: monospace;
   font-size: 18px;
   margin-top: 10px;
@@ -16,7 +16,7 @@
   color: black;
 }
 
-.md_h3 {
+#ge-app .md_h3 {
   font-family: monospace;
   font-size: 14px;
   margin-top: 10px;
@@ -25,7 +25,7 @@
   color: black;
 }
 
-.md_h4 {
+#ge-app .md_h4 {
   font-family: monospace;
   font-size: 12px;
   margin-top: 10px;
@@ -34,7 +34,7 @@
   color: black;
 }
 
-.md_bl {
+#ge-app .md_bl {
   font-family: monospace;
   font-size: 12px;
   margin-top: 5px;
@@ -44,7 +44,7 @@
   color: black;
 }
 
-.md_bl::before {
+#ge-app .md_bl::before {
   content: "  ";
   position: relative;
   left: 0px;
@@ -55,7 +55,7 @@
   border-radius: 50%;
 }
 
-.language-python {
+#ge-app .language-python {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -65,7 +65,7 @@
   font-size: 12px;
 }
 
-.language-java {
+#ge-app .language-java {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -75,7 +75,7 @@
   font-size: 12px;
 }
 
-.language-css {
+#ge-app .language-css {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -85,7 +85,7 @@
   font-size: 12px;
 }
 
-.language-html {
+#ge-app .language-html {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -95,7 +95,7 @@
   font-size: 12px;
 }
 
-.language-javascript {
+#ge-app .language-javascript {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -105,7 +105,7 @@
   font-size: 12px;
 }
 
-.language-typescript {
+#ge-app .language-typescript {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -115,7 +115,7 @@
   font-size: 12px;
 }
 
-.language-actionscript {
+#ge-app .language-actionscript {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -125,7 +125,7 @@
   font-size: 12px;
 }
 
-.language-apacheconf {
+#ge-app .language-apacheconf {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -135,7 +135,7 @@
   font-size: 12px;
 }
 
-.language-apache {
+#ge-app .language-apache {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -145,7 +145,7 @@
   font-size: 12px;
 }
 
-.language-applescript {
+#ge-app .language-applescript {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -155,7 +155,7 @@
   font-size: 12px;
 }
 
-.language-osascript {
+#ge-app .language-osascript {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -165,7 +165,7 @@
   font-size: 12px;
 }
 
-.language-arcade {
+#ge-app .language-arcade {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -175,7 +175,7 @@
   font-size: 12px;
 }
 
-.language-asciidoc {
+#ge-app .language-asciidoc {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -185,7 +185,7 @@
   font-size: 12px;
 }
 
-.language-aspectj {
+#ge-app .language-aspectj {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -195,7 +195,7 @@
   font-size: 12px;
 }
 
-.language-xml {
+#ge-app .language-xml {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -205,7 +205,7 @@
   font-size: 12px;
 }
 
-.language-xhtml {
+#ge-app .language-xhtml {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -215,7 +215,7 @@
   font-size: 12px;
 }
 
-.language-rss {
+#ge-app .language-rss {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -225,7 +225,7 @@
   font-size: 12px;
 }
 
-.language-atom {
+#ge-app .language-atom {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -235,7 +235,7 @@
   font-size: 12px;
 }
 
-.language-xjb {
+#ge-app .language-xjb {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -245,7 +245,7 @@
   font-size: 12px;
 }
 
-.language-xsd {
+#ge-app .language-xsd {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -255,7 +255,7 @@
   font-size: 12px;
 }
 
-.language-xsl {
+#ge-app .language-xsl {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -265,7 +265,7 @@
   font-size: 12px;
 }
 
-.language-plist {
+#ge-app .language-plist {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -275,7 +275,7 @@
   font-size: 12px;
 }
 
-.language-svg {
+#ge-app .language-svg {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -285,7 +285,7 @@
   font-size: 12px;
 }
 
-.language-exec-svg {
+#ge-app .language-exec-svg {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -295,7 +295,7 @@
   font-size: 12px;
 }
 
-.language-adoc {
+#ge-app .language-adoc {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -305,7 +305,7 @@
   font-size: 12px;
 }
 
-.language-vue {
+#ge-app .language-vue {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -315,7 +315,7 @@
   font-size: 12px;
 }
 
-.language-cmd {
+#ge-app .language-cmd {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -325,7 +325,7 @@
   font-size: 12px;
 }
 
-.language-php {
+#ge-app .language-php {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -335,7 +335,7 @@
   font-size: 12px;
 }
 
-.language-csharp {
+#ge-app .language-csharp {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -345,7 +345,7 @@
   font-size: 12px;
 }
 
-.language-c {
+#ge-app .language-c {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -355,7 +355,7 @@
   font-size: 12px;
 }
 
-.language-cpp {
+#ge-app .language-cpp {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -365,7 +365,7 @@
   font-size: 12px;
 }
 
-.language-bash {
+#ge-app .language-bash {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -375,7 +375,7 @@
   font-size: 12px;
 }
 
-.language-sh {
+#ge-app .language-sh {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -385,7 +385,7 @@
   font-size: 12px;
 }
 
-.language-zsh {
+#ge-app .language-zsh {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -395,7 +395,7 @@
   font-size: 12px;
 }
 
-.language-jsp {
+#ge-app .language-jsp {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -405,7 +405,7 @@
   font-size: 12px;
 }
 
-.language-kotlin {
+#ge-app .language-kotlin {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -415,7 +415,7 @@
   font-size: 12px;
 }
 
-.language-sql {
+#ge-app .language-sql {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -425,7 +425,7 @@
   font-size: 12px;
 }
 
-.language-rust {
+#ge-app .language-rust {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -435,7 +435,7 @@
   font-size: 12px;
 }
 
-.language-ruby {
+#ge-app .language-ruby {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -445,7 +445,7 @@
   font-size: 12px;
 }
 
-.language-1c {
+#ge-app .language-1c {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -455,7 +455,7 @@
   font-size: 12px;
 }
 
-.language-perl {
+#ge-app .language-perl {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -465,7 +465,7 @@
   font-size: 12px;
 }
 
-.language-r {
+#ge-app .language-r {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -475,7 +475,7 @@
   font-size: 12px;
 }
 
-.language-abnf {
+#ge-app .language-abnf {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -485,7 +485,7 @@
   font-size: 12px;
 }
 
-.language-json {
+#ge-app .language-json {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -495,7 +495,7 @@
   font-size: 12px;
 }
 
-.language-ada {
+#ge-app .language-ada {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -505,7 +505,7 @@
   font-size: 12px;
 }
 
-.language-asm {
+#ge-app .language-asm {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -515,7 +515,7 @@
   font-size: 12px;
 }
 
-.language-jsx {
+#ge-app .language-jsx {
   display: block;
   margin: 10px;
   padding: 10px;
@@ -525,7 +525,7 @@
   font-size: 12px;
 }
 
-.language-unknown {
+#ge-app .language-unknown {
   display: block;
   margin: 10px;
   padding: 10px;
