@@ -1,1 +1,537 @@
+/*
+ * Copyright (c) 2026 Dinh Thoai Tran <attaceph@protonmail.com>
+ * All rights reserved.
+ *
+ * License: GPL v.2
+ * Source: https://github.com/attaceph/airespaker
+ *
+ */
+
+.md_h2 {
+  font-family: monospace;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: dashed 3px gainsboro;
+  color: black;
+}
+
+.md_h3 {
+  font-family: monospace;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: dotted 2px gainsboro;
+  color: black;
+}
+
+.md_h4 {
+  font-family: monospace;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: dashed 1px gainsboro;
+  color: black;
+}
+
+.md_bl {
+  font-family: monospace;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  //border-left: dotted 5px gainsboro;
+  color: black;
+}
+
+.md_bl::before {
+  content: "  ";
+  position: relative;
+  left: 0px;
+  top: -2px;
+  background-color: gainsboro;
+  margin-right: 5px;
+  font-size: 7px;
+  border-radius: 50%;
+}
+
+.language-python {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-java {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-css {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-html {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-javascript {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-typescript {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-actionscript {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-apacheconf {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-apache {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-applescript {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-osascript {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-arcade {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-asciidoc {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-aspectj {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-xml {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-xhtml {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-rss {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-atom {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-xjb {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-xsd {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-xsl {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-plist {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-svg {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-exec-svg {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-adoc {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-vue {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-cmd {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-php {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-csharp {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-c {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-cpp {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-bash {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-sh {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-zsh {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-jsp {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-kotlin {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-sql {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-rust {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-ruby {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-1c {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-perl {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-r {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-abnf {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-json {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-ada {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-asm {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-jsx {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.language-unknown {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: dashed 2px gainsboro;
+  border-left: dashed 5px gainsboro;
+  font-family: monospace;
+  font-size: 12px;
+}
 
