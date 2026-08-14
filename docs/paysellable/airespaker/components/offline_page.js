@@ -47,6 +47,7 @@ const OfflinePage = {
       this.check_online();
     },
     check_online() {
+      gj_check_backend();
       let v_this = this;
       gj_text_get( '/airespaker/index.php?method=nothing', 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
