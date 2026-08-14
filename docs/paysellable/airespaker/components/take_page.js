@@ -35,7 +35,7 @@ const TakePage = {
 <div v-show="message != ''" class="take-result"><br/>- Results -----------|_|-----------------------<br/>
 {{ message }}<br/>-----------------------------------------------<br/><br/></div>
 
-<input type="button" class="take-button" value="Save" v-on:click="doTake" /> &nbsp; <input type="button" class="take-button-2" value="Canel" v-on:click="doCancel" />
+<input type="button" class="take-button" value="Save" v-on:click="doTake" /> &nbsp; <input type="button" class="take-button-2" value="Cancel" v-on:click="doCancel" />
   </div></div>
 `,
   emits: [ 'go_page', 'set_token' ],
