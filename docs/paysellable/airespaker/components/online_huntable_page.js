@@ -53,10 +53,12 @@ const HuntableOnlinePage = {
     update_online( value ) {
       this.online = value;
       
-      let v_token = localStorage.getItem('paysellable_airespaker_token');
-      if (v_token + '' !== 'undefined' && v_token + '' !== '') {
-        this.token = v_token;
-        this.go_page('dashboard');
+      if (this.online == false && value == true) {
+        let v_token = localStorage.getItem('paysellable_airespaker_token');
+        if (v_token + '' !== 'undefined' && v_token + '' !== '') {
+          this.token = v_token;
+          this.go_page('dashboard');
+        }
       }
     },
     set_username( username ) {
