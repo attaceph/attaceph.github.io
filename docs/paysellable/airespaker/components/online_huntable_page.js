@@ -53,47 +53,10 @@ const HuntableOnlinePage = {
     update_online( value ) {
       this.online = value;
       
-      if (this.premium === '') {
-        let uri = location + '';
-        uri = uri.replaceAll('https://airespaker.is-best.net', '').replaceAll('http://airespaker.is-best.net', '');
-        let qry = '';
-        let lidx = uri.lastIndexOf('/');
-        if (lidx >= 0) {
-          lidx = uri.indexOf('q=', lidx + 1);
-          if (lidx >= 0) {
-            qry = uri.substring(lidx + 2);
-            lidx = qry.indexOf('&');
-            if (lidx >= 0) {
-              qry = qry.substring(0, lidx);
-            }
-            qry = decodeURIComponent(qry);
-          }
-        }
-        let idx = uri.indexOf('/c/');
-        if (idx === 0) {
-          location = 'https://respache.is-best.net';
-          return;
-
-          uri = uri.substring(3);
-          let username = 'airespaker';
-          idx = uri.indexOf('/');
-          if (idx >= 0) {
-            username = uri.substring(0, idx);
-          }
-          if (this.page !== 'aircache') {
-            this.go_page('aircache');
-            if (qry.length > 0) {
-              this.$refs.aircache_page.setUsername(username, false);   
-              this.$refs.aircache_page.setQuery(qry);   
-            } else {
-              this.$refs.aircache_page.setUsername(username, true);   
-            }
-          }
-        } else if (this.token === '' && uri.indexOf('/register/') === 0) {
-          this.go_page('register');
-        } else if (this.token === '' && uri.indexOf('/login/') === 0) {
-          this.go_page('login');
-        }
+      let v_token = localStorage.getItem('paysellable_airespaker_token');
+      if (v_token + '' !== 'undefined' && v_token + '' !== '') {
+        this.token = v_token;
+        this.go_page('dashboard');
       }
     },
     set_username( username ) {
@@ -107,6 +70,7 @@ const HuntableOnlinePage = {
       if (value === '' && this.token !== '') {
         gj_text_post( '/airespaker/index.php?method=logout', {'token': this.token}, 'n', function( text ) {
         });      
+        localStorage.setItem('paysellable_airespaker_token', '');
       }
       this.token = value;
     },
