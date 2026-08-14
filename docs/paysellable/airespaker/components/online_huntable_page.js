@@ -41,6 +41,7 @@ const HuntableOnlinePage = {
     return {
       premium: go_premium,
       username: go_premium,
+      updated_once: false,
       page: 'home',
       token: '',
       online_page_text: gv_online_page_text,
@@ -50,15 +51,18 @@ const HuntableOnlinePage = {
     };
   },
   methods: {
-    update_online( value ) {
-      this.online = value;
-      
-      if (this.online == false && value == true) {
+    check_logged_in() {
         let v_token = localStorage.getItem('paysellable_airespaker_token');
         if (v_token + '' !== 'undefined' && v_token + '' !== '') {
           this.token = v_token;
           this.go_page('dashboard');
-        }
+        }    
+    },
+    update_online( value ) {
+      this.online = value;
+      if (this.updated_once == false) {
+        this.updated_once = true;
+        this.check_logged_in();
       }
     },
     set_username( username ) {
