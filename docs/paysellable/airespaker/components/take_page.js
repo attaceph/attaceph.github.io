@@ -63,7 +63,7 @@ const TakePage = {
       this.message = '';
       
       let v_this = this;
-      gj_text_get( '/airespaker/?method=ais_list&token=' + encodeURIComponent(this.token), 'n', function( text ) {
+      gj_text_get( '/airespaker/index.php?method=ais_list&token=' + encodeURIComponent(this.token), 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
           let data = text.substring(8).trim();
           v_this.ais_list_text = data;
@@ -131,7 +131,7 @@ const TakePage = {
       if ( this.question.trim() !== '' ) {
         v_query = "```aiq\n" + this.question.replaceAll('\\n', "\n").trim() + "\n```\n" + v_query;
       }
-      gj_text_post( '/airespaker/?method=take', {'token': this.token, 'machine': this.machine, 'query': v_query, 'tags': this.tags}, 'n', function( text ) {
+      gj_text_post( '/airespaker/index.php?method=take', {'token': this.token, 'machine': this.machine, 'query': v_query, 'tags': this.tags}, 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
           let data = text.substring(8).trim();
           //v_this.message = "\n" + data + "\n";

@@ -150,7 +150,7 @@ const RegisterPage = {
     },
     doRegister() {
       let v_this = this;
-      gj_text_post( '/airespaker/?method=register', { 'username': gj_escape(this.username), 'password': gj_escape(this.password), 'name':  gj_escape(this.name), 'email': gj_escape(this.email), 'phone': gj_escape(this.phone) }, 'n', function( text ) {
+      gj_text_post( '/airespaker/index.php?method=register', { 'username': gj_escape(this.username), 'password': gj_escape(this.password), 'name':  gj_escape(this.name), 'email': gj_escape(this.email), 'phone': gj_escape(this.phone) }, 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
           v_this.$emit( 'go_page', 'login' );
         } else if ( text.indexOf('Error:') >= 0) {

@@ -48,8 +48,8 @@ const OfflinePage = {
     },
     check_online() {
       let v_this = this;
-      gj_text_get( '/ready.txt', 'n', function( text ) {
-        if ( text.indexOf('Ready:') >= 0 ) {
+      gj_text_get( '/airespaker/index.php?method=nothing', 'n', function( text ) {
+        if ( text.indexOf('Success:') >= 0 ) {
           v_this.online = true;
           v_this.$emit( 'update_online', true );
         } else {

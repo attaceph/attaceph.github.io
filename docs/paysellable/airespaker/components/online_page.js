@@ -216,7 +216,7 @@ const OnlinePage = {
     },
     set_token( value ) {
       if (value === '' && this.token !== '') {
-        gj_text_post( '/airespaker/?method=logout', {'token': this.token}, 'n', function( text ) {
+        gj_text_post( '/airespaker/index.php?method=logout', {'token': this.token}, 'n', function( text ) {
         });      
       }
       this.token = value;
@@ -244,7 +244,7 @@ const OnlinePage = {
       this.page = value;
     },
     doLogout() {
-      gj_text_post( '/airespaker/?method=logout', {'token': this.token}, 'n', function( text ) {
+      gj_text_post( '/airespaker/index.php?method=logout', {'token': this.token}, 'n', function( text ) {
       });      
       this.token = '';
     }

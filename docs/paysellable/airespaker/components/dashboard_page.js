@@ -114,7 +114,7 @@ const DashboardPage = {
       this.all_tags_full = false;
       this.all_ais_full = false;
       this.message = "\n" + 'Loading AI list ...' + "\n";
-      gj_text_get( '/airespaker/?method=ais_list&token=' + encodeURIComponent(this.token), 'n', function( text ) {
+      gj_text_get( '/airespaker/index.php?method=ais_list&token=' + encodeURIComponent(this.token), 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
           let data = text.substring(8).trim();
           let lines = data.split("\n");
@@ -154,7 +154,7 @@ const DashboardPage = {
       this.air_list_ai = [];
       this.air_list_ai_show = 'no';
       this.message = "\n" + 'Filtering AI responses ...' + "\n";
-      gj_text_post( '/airespaker/?method=air_list', { 'token': this.token, 'ai': ai, 'page_no': v_page_no, 'page_size': v_page_size, 'tag': tag, 'code': this.code }, 'n', function( text ) {
+      gj_text_post( '/airespaker/index.php?method=air_list', { 'token': this.token, 'ai': ai, 'page_no': v_page_no, 'page_size': v_page_size, 'tag': tag, 'code': this.code }, 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
           let data = text.substring(8).trim();
           let lines = data.split("\n");
@@ -197,7 +197,7 @@ const DashboardPage = {
     doUpdateAllTags() {
       let v_this = this;
       this.message = "\n" + 'Updating all tags ...' + "\n";
-      gj_text_get( '/airespaker/?method=all_tags&token=' + encodeURIComponent(this.token), 'n', function( text ) {
+      gj_text_get( '/airespaker/index.php?method=all_tags&token=' + encodeURIComponent(this.token), 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
           let data = text.substring(8).trim();
           let lines = data.split(",");
@@ -216,7 +216,7 @@ const DashboardPage = {
     doDeleteAIR(code) {
       let v_this = this;
       this.message = "\n" + 'Deleting [' + code + '] AI response ...' + "\n";
-      gj_text_post( '/airespaker/?method=delete_air', { 'token': this.token, 'code': code }, 'n', function( text ) {
+      gj_text_post( '/airespaker/index.php?method=delete_air', { 'token': this.token, 'code': code }, 'n', function( text ) {
         v_this.doFilterByAI(v_this.air_list_ai_slug, v_this.air_list_ai_tag);
         v_this.doUpdateAllTags();
         v_this.message = '';
@@ -247,7 +247,7 @@ const DashboardPage = {
         v_tags = '';
       }
       v_this.message = "\n" + 'Saving AI response from [ ' + ai + ' ] ...' + "\n";
-      gj_text_post( '/airespaker/?method=take', {'token': this.token, 'machine': machine, 'query': v_query, 'tags': v_tags}, 'n', function( text ) {
+      gj_text_post( '/airespaker/index.php?method=take', {'token': this.token, 'machine': machine, 'query': v_query, 'tags': v_tags}, 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
           v_this.message = "\n" + 'AI response from [ ' + ai + ' ] has been saved ...' + "\n";
           v_this.doUpdateAllTags();

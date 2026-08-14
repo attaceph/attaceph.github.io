@@ -65,7 +65,7 @@ const ProfilePage = {
       this.demo = 'yes';
       this.message = '';
       let v_this = this;
-      gj_text_get( '/airespaker/?method=current_user&token=' + encodeURIComponent(this.token), 'n', function( text ) {
+      gj_text_get( '/airespaker/index.php?method=current_user&token=' + encodeURIComponent(this.token), 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
           let data = text.substring(8).trim();
           let lines = data.split("\n");
@@ -90,13 +90,13 @@ const ProfilePage = {
     doUpdate() {
       let v_this = this;
       if ( this.password !== '' ) {
-        gj_text_get( '/airespaker/?method=chpwd&token=' + encodeURIComponent(this.token) + '&password=' + encodeURIComponent(this.password), 'n', function( text ) {
+        gj_text_get( '/airespaker/index.php?method=chpwd&token=' + encodeURIComponent(this.token) + '&password=' + encodeURIComponent(this.password), 'n', function( text ) {
           if ( text.indexOf('Success:') >= 0 ) {
             v_this.message = "\n" + 'Password has been changed!' + "\n";
           }
         });
       } else {
-        gj_text_post( '/airespaker/?method=update_user', { 'token': gj_escape(this.token), 'name':  gj_escape(this.name), 'email': gj_escape(this.email), 'phone': gj_escape(this.phone) }, 'n', function( text ) {
+        gj_text_post( '/airespaker/index.php?method=update_user', { 'token': gj_escape(this.token), 'name':  gj_escape(this.name), 'email': gj_escape(this.email), 'phone': gj_escape(this.phone) }, 'n', function( text ) {
           if ( text.indexOf('Success:') >= 0 ) {
             v_this.message = "\n" + 'Profile has been updated!' + "\n";
           } else if ( text.indexOf('Error:') >= 0) {
