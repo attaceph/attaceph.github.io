@@ -16,7 +16,7 @@ const gv_dashboard_page_text = `=======_==========================_============
                  --- oOo ---`;
 
 const HuntableDashboardPage = {
-  template: `<div class="dashboard-page"><div class="dashboard-page-inner">{{ dashboard_page_text }}<br/>{{ page_title }}<br/>===============================================<br/>
+  template: `<div class="dashboard-page"><div class="dashboard-page-inner">{{ dashboard_page_text }}<br/>{{ page_title }}<br/>===============================================<br/><br/>
     
 <input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; <input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; <input type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" />
 
