@@ -20,11 +20,11 @@ const HuntableDashboardPage = {
     
 <div v-show="has_logout || has_take"><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; </span><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; </span><input v-show="has_take" type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" /></div>
 
-<div v-show="has_filter"><br/><br/><br/>-Filtered by code ---|_|--( query, keywords )--<br/>
+<br/><br/><br/>-Filtered by code ---|_|--( query, keywords )--<br/>
 <input type="text" class="dashboard-text" v-model="code" />&nbsp;<input type="button" class="dashboard-button" @click="doFilterByAI('', '')" value="Enter" />
 <br/>-----------------------------------------------<br/>
 
-<br/><br/>---------------------|_|-----------------------<br/>
+<div v-show="has_filter"><br/><br/>---------------------|_|-----------------------<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filtered by AI<br/>-----------------------------------------------<br/>
 <div class="dashboard-air-list dashboard-tag-list"><div :class="all_ais_full ? 'dashboard-air-list-item dashboard-air-list-item-full' : 'dashboard-air-list-item  dashboard-air-list-item-half'">
   <div class="dashboard-air-list-item-toolbar" style="margin-bottom: 10px;"><input type="button" :class="all_ais_full ? 'dashboard-button' : 'dashboard-button-2'" value="&lt;|" v-on:click="all_ais_full = false;" />&nbsp;<input type="button" :class="all_ais_full ? 'dashboard-button-2' : 'dashboard-button'" value="|&gt;" v-on:click="all_ais_full = true;" /></div>
