@@ -43,6 +43,7 @@ const HuntableTakePage = {
     return {
       take_page_text: gv_take_page_text,
       thread_id: go_thread_id,
+      thread_subject: go_thread_subject,
       query: "",
       question: "",
       machine: "",
@@ -59,9 +60,14 @@ const HuntableTakePage = {
     doPrepare( token ) {
       this.token = token;
       this.machine = 'google-ai-search';
+      this.question = '';
       this.query = '';
       this.tags = '';
       this.tags = 'Thread ' + this.thread_id;
+      if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+        this.tags = '';
+        this.question = this.thread_subject;
+      }
       this.message = '';
       
       let v_this = this;
