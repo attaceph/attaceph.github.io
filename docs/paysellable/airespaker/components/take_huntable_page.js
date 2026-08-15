@@ -94,6 +94,7 @@ const HuntableTakePage = {
             }
           }
         }
+        cont += "\n\n+ Huntable: [Thread " + this.thread_id + '](https://paysellable.boards.net/thread/' + this.thread_id + '/)';
         this.query = cont;
       }
       this.message = '';
