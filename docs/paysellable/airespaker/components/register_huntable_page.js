@@ -77,6 +77,3 @@ const HuntableRegisterPage = {
     }
   }
 };
-
-
-
