@@ -73,7 +73,7 @@ const HuntableTakePage = {
         cont = cont.replaceAll('<div class="quote_body">', '');
         cont = cont.replaceAll('</div', '');
         cont = cont.replaceAll('<br/>', "\n");
-        this.query = this.thread_content;
+        this.query = cont;
       }
       this.message = '';
       
