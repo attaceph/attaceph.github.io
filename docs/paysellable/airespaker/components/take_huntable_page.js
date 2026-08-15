@@ -44,6 +44,7 @@ const HuntableTakePage = {
       take_page_text: gv_take_page_text,
       thread_id: go_thread_id,
       thread_subject: go_thread_subject,
+      thread_content: go_thread_content,
       query: "",
       question: "",
       machine: "",
@@ -67,6 +68,7 @@ const HuntableTakePage = {
       if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
         this.tags = '';
         this.question = this.thread_subject;
+        this.query = this.thread_content;
       }
       this.message = '';
       
