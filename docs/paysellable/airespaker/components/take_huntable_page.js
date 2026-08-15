@@ -68,6 +68,11 @@ const HuntableTakePage = {
       if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
         this.tags = '';
         this.question = this.thread_subject;
+        let cont = this.thread_content;
+        cont = cont.replaceAll('<div class="quote no_header">', '');
+        cont = cont.replaceAll('<div class="quote_body">', '');
+        cont = cont.replaceAll('</div', '');
+        cont = cont.replaceAll('<br/>', "\n");
         this.query = this.thread_content;
       }
       this.message = '';
