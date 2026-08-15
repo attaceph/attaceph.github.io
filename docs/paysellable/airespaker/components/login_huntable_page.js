@@ -26,7 +26,7 @@ const HuntableLoginPage = {
 <div v-show="premium != ''"><br/>- Username ----------|_|-----------------------<br/>
 <input type="text" class="login-text" v-model="username" readonly="yes" /><br/>-----------------------------------------------<br/><br/></div>
 <br/>- Password ----------|_|-----------------------<br/>
-<input type="password" class="login-text" v-model="password" /><br/>-----------------------------------------------<br/><br/></div>
+<input type="password" class="login-text" v-model="password" /><br/>-----------------------------------------------<br/><br/>
 <div v-show="message != ''" class="login-result"><br/>- Results -----------|_|-----------------------<br/>
 {{ message }}<br/>-----------------------------------------------<br/><br/></div>
 
