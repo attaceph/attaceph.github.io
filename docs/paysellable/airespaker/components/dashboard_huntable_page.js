@@ -205,7 +205,7 @@ const HuntableDashboardPage = {
           let list = ['thread-' + v_this.thread_id];
           for ( var i = 0; i < lines.length; i++ ) {
             let ln = lines[i].trim();
-            if (ln === '' || ln === 'thread-' + v_this.thread_id) continue;
+            if (ln === '' || ln === 'thread-' + v_this.thread_id || ln.indexOf('thread-') === 0) continue;
             list.push(ln);
           }
           v_this.all_tags = list;
