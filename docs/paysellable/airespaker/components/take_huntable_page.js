@@ -92,7 +92,7 @@ const HuntableTakePage = {
                 title = title.replaceAll('https://', '');
                 title = title.replaceAll('www.', '');
               }
-              cont += '[' + title + '](' + link + ')';
+              cont += '[ ' + title + ' ](' + link + ')';
             }
           }
         }
