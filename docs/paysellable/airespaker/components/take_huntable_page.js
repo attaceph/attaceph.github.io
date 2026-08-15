@@ -131,7 +131,8 @@ const HuntableTakePage = {
       v_this.message = "\n" + 'Saving AI response from [ ' + ai + ' ] ...' + "\n";
       let v_query = this.query;
       if ( this.question.trim() !== '' ) {
-        v_query = "```aiq\n" + this.question.replaceAll('\\n', "\n").trim() + "\n```\n" + v_query;
+        let v_prefix = "```text\n" + this.question.replaceAll('\\n', "\n").trim() + "\n```\n";
+        v_query = "```aiq\n" + this.question.replaceAll('\\n', "\n").trim() + "\n```\n" + v_prefix + v_query;
       }
       gj_text_post( '/airespaker/index.php?method=take', {'token': this.token, 'machine': this.machine, 'query': v_query, 'tags': this.tags}, 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
