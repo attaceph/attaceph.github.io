@@ -176,7 +176,7 @@ const HuntableDashboardPage = {
             let ai_slug = gj_unescape(fields[3]);
             let ai_name = gj_unescape(fields[4]);
             let tags = [];
-            if (query !== '_') {
+            if (query !== '_' && query !== '') {
               tags.push(query);
             }
             let parts = gj_unescape(fields[5]).split(',');
