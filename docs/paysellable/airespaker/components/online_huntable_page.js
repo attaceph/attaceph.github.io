@@ -13,7 +13,6 @@ const gv_online_page_text = `  __ _(_)  _ _ ___ ____ __   __ _\| \|_____ _ _
 =====================\|_\|=======================
               AI Response Taker
 ===============================================
-
 `;
 
 const gv_online_page_text_2 = `
@@ -21,9 +20,8 @@ const gv_online_page_text_2 = `
 
 const HuntableOnlinePage = {
   template: `<div v-show="online && page == 'home'" class="online-page"><div class="online-page-inner">=======_==========================<span v-on:click="hide=false">_</span>============<br/>{{ online_page_text }}
-
-<br/><br/>---------------------|_|-----------------------<br/>
-         [ Shared Notes - Paysellable ] <br/>
+<br/>---------------------|_|-----------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ Shared Notes - Paysellable ] <br/>
 Use this account to get FAQ & research information<br/>
 -----------------------------------------------<br/>
 <br/>
@@ -31,7 +29,7 @@ Use this account to get FAQ & research information<br/>
 + Password: ReadyToPayFor<br/>
 <br/>
 ** Notes: After logged in, select first tag to get FAQ<br/>
-          & research information</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& research information</br>
 <br/>
 -----------------------------------------------<br/>
 <br/>
