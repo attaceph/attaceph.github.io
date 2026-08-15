@@ -18,7 +18,7 @@ const gv_dashboard_page_text = `=======_==========================_============
 const HuntableDashboardPage = {
   template: `<div class="dashboard-page"><div class="dashboard-page-inner">{{ dashboard_page_text }}<br/>{{ page_title }}<br/>===============================================<br/><br/>
     
-<input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; <input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; <input type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" />
+<span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; </span><input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; <input type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" />
 
 <br/><br/><br/>-Filtered by code ---|_|--( query, keywords )--<br/>
 <input type="text" class="dashboard-text" v-model="code" />&nbsp;<input type="button" class="dashboard-button" @click="doFilterByAI('', '')" value="Enter" />
@@ -62,6 +62,7 @@ const HuntableDashboardPage = {
       thread_id: go_thread_id,
       thread_subject: go_thread_subject,
       page_title: 'Dashboard',
+      has_logout: true,
       token: '',
       code: '',
       message: '',
@@ -102,6 +103,9 @@ const HuntableDashboardPage = {
     },
     doPrepare(token) {
       this.token = token;
+      if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+        this.has_logout = false;
+      }
       let v_this = this;
       this.ais_list = [];
       this.air_list_ai = [];
