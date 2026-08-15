@@ -127,9 +127,9 @@ const HuntableDashboardPage = {
       this.page_title = '[ Thread ' + this.thread_id + ' ]  -:-  ' + this.thread_subject;
       if ( go_has_ws || (window.top.location + '').indexOf('ws=y') >= 0 ) {
         if ( this.thread_subject !== '' ) {
-          this.page_title = "White Members' Store  -:-  Thread " + this.thread_id;        
+          this.page_title = "    White Members' Store  -:-  Thread " + this.thread_id;        
         } else {
-          this.page_title = "White Members' Store";
+          this.page_title = "          White Members' Store";
         }
       }
       this.message = "\n" + 'Loading AI list ...' + "\n";
