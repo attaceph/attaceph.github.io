@@ -18,9 +18,9 @@ const gv_dashboard_page_text = `=======_==========================_============
 const HuntableDashboardPage = {
   template: `<div class="dashboard-page"><div class="dashboard-page-inner">{{ dashboard_page_text }}<br/>{{ page_title }}<br/>===============================================<br/><br/>
     
-<span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; </span><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; </span><input v-show="has_take" type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" />
+<div v-show="has_logout || has_take"><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; </span><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; </span><input v-show="has_take" type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" /></div>
 
-<br/><br/><br/>-Filtered by code ---|_|--( query, keywords )--<br/>
+<div v-show="has_filter"><br/><br/><br/>-Filtered by code ---|_|--( query, keywords )--<br/>
 <input type="text" class="dashboard-text" v-model="code" />&nbsp;<input type="button" class="dashboard-button" @click="doFilterByAI('', '')" value="Enter" />
 <br/>-----------------------------------------------<br/>
 
@@ -37,7 +37,7 @@ const HuntableDashboardPage = {
   <div class="dashboard-air-list-item-toolbar" style="margin-bottom: 10px;"><input type="button" :class="all_tags_full ? 'dashboard-button' : 'dashboard-button-2'" value="&lt;|" v-on:click="all_tags_full = false;" />&nbsp;<input type="button" :class="all_tags_full ? 'dashboard-button-2' : 'dashboard-button'" value="|&gt;" v-on:click="all_tags_full = true;" /></div>
 <input v-for="item in all_tags" type="button" class="dashboard-button-2" :value="item" v-on:click="doFilterByAI('', item)" style="margin-right: 10px; margin-bottom: 5px;" />
 </div></div>
-<br/><br/>
+<br/><br/></div>
 
 <div v-show="message != ''" class="take-result"><br/>- Results -----------|_|-----------------------<br/>
 {{ message }}<br/>-----------------------------------------------<br/><br/></div>
@@ -64,6 +64,7 @@ const HuntableDashboardPage = {
       page_title: 'Dashboard',
       has_logout: true,
       has_take: true,
+      has_filter: true,
       token: '',
       code: '',
       message: '',
@@ -111,6 +112,7 @@ const HuntableDashboardPage = {
         } else {
           this.has_take = false;
         }
+        this.has_filter = false;
       }
       let v_this = this;
       this.ais_list = [];
