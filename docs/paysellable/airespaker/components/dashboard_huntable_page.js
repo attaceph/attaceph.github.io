@@ -112,7 +112,7 @@ const HuntableDashboardPage = {
       this.all_tags_show = 'no';
       this.all_tags_full = false;
       this.all_ais_full = false;
-      this.page_title = '[ Thread ' + this.thread_id + ' ] ' + this.thread_subject;
+      this.page_title = '[ Thread ' + this.thread_id + ' ]  -:-  ' + this.thread_subject;
       this.message = "\n" + 'Loading AI list ...' + "\n";
       gj_text_get( '/airespaker/index.php?method=ais_list&token=' + encodeURIComponent(this.token), 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
