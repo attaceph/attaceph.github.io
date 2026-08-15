@@ -144,6 +144,7 @@ const HuntableDashboardPage = {
         }
       });      
       this.doUpdateAllTags();
+      this.doFilterByAI('');
     },
     doFilterByAI(ai, tag = 'thread-' + this.thread_id) {
       this.air_list_ai_slug = ai;
