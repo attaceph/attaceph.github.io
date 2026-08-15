@@ -92,11 +92,11 @@ const HuntableTakePage = {
                 title = title.replaceAll('https://', '');
                 title = title.replaceAll('www.', '');
               }
-              cont += '[ ' + title + ' ](' + link + ')';
+              cont += '[ ' + title + ' ]( ' + link + ' )';
             }
           }
         }
-        cont += "\n\n+ Huntable: [Thread " + this.thread_id + '](https://paysellable.boards.net/thread/' + this.thread_id + '/)';
+        cont += "\n\n+ Huntable: [ Thread " + this.thread_id + ' ]( https://paysellable.boards.net/thread/' + this.thread_id + '/ )';
         this.query = cont;
       }
       this.message = '';
