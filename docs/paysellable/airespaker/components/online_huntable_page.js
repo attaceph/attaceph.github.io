@@ -59,14 +59,22 @@ Use this account to get FAQ & research information<br/>
   },
   methods: {
     check_logged_in() {
-        let v_token = localStorage.getItem('paysellable_airespaker_token');
+      let v_token = '';
+      if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+        if ( go_token_ws !== '' ) {
+          v_token = go_token_ws;
+        }
+      }
+      if ( v_token === '' ) {
+        v_token = localStorage.getItem('paysellable_airespaker_token');
         if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
           v_token = localStorage.getItem('paysellablews_airespaker_token');
         }
-        if (v_token + '' !== 'undefined' && v_token + '' !== '') {
-          this.token = v_token;
-          this.go_page('dashboard');
-        }    
+      }
+      if (v_token + '' !== 'undefined' && v_token + '' !== '') {
+        this.token = v_token;
+        this.go_page('dashboard');
+      }    
     },
     update_online( value ) {
       this.online = value;
