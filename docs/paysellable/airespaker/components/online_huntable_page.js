@@ -60,7 +60,7 @@ Use this account to get FAQ & research information<br/>
   methods: {
     check_logged_in() {
       let v_token = '';
-      if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+      if ( go_has_ws || (window.top.location + '').indexOf('ws=y') >= 0 ) {
         if ( go_token_ws !== '' ) {
           v_token = go_token_ws;
         }
@@ -94,7 +94,11 @@ Use this account to get FAQ & research information<br/>
       if (value === '' && this.token !== '') {
         gj_text_post( '/airespaker/index.php?method=logout', {'token': this.token}, 'n', function( text ) {
         });      
-        localStorage.setItem('paysellable_airespaker_token', '');
+        if ( go_has_ws || (window.top.location + '').indexOf('ws=y') >= 0 ) {
+          localStorage.setItem('paysellablews_airespaker_token', '');
+        } else {
+          localStorage.setItem('paysellable_airespaker_token', '');
+        }
       }
       this.token = value;
     },

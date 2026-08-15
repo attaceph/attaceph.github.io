@@ -65,7 +65,7 @@ const HuntableTakePage = {
       this.query = '';
       this.tags = '';
       this.tags = 'Thread ' + this.thread_id;
-      if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+      if ( go_has_ws || (window.top.location + '').indexOf('ws=y') >= 0 ) {
         this.tags = '';
         this.question = this.thread_subject;
         let cont = this.thread_content;
@@ -153,7 +153,7 @@ const HuntableTakePage = {
     },
     doTake() {
       let v_this = this;
-      if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+      if ( go_has_ws || (window.top.location + '').indexOf('ws=y') >= 0 ) {
         this.machine = 'others';
       }
       let ai = 'Other AIs';

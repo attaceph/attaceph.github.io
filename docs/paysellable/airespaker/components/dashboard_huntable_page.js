@@ -18,9 +18,9 @@ const gv_dashboard_page_text = `=======_==========================_============
 const HuntableDashboardPage = {
   template: `<div class="dashboard-page"><div class="dashboard-page-inner">{{ dashboard_page_text }}<br/>{{ page_title }}<br/>===============================================<br/><br/>
     
-<div v-show="has_logout || has_take"><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; </span><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; </span><input v-show="has_take" type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" /></div>
+<div v-show="has_logout || has_take"><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; </span><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; </span><input v-show="has_take" type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" /><br/><br/></div>
 
-<br/><br/><br/>-Filtered by code ---|_|--( query, keywords )--<br/>
+<br/>-Filtered by code ---|_|--( query, keywords )--<br/>
 <input type="text" class="dashboard-text" v-model="code" />&nbsp;<input type="button" class="dashboard-button" @click="doFilterByAI('', '')" value="Enter" />
 <br/>-----------------------------------------------<br/>
 
@@ -105,7 +105,7 @@ const HuntableDashboardPage = {
     },
     doPrepare(token) {
       this.token = token;
-      if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+      if ( go_has_ws || (window.top.location + '').indexOf('ws=y') >= 0 ) {
         this.has_logout = false;
         if ( (window.top.location + '').indexOf('take=y') >= 0 ) {
           this.has_take = true;
@@ -125,6 +125,13 @@ const HuntableDashboardPage = {
       this.all_tags_full = false;
       this.all_ais_full = false;
       this.page_title = '[ Thread ' + this.thread_id + ' ]  -:-  ' + this.thread_subject;
+      if ( go_has_ws || (window.top.location + '').indexOf('ws=y') >= 0 ) {
+        if ( this.thread_subject !== '' ) {
+          this.page_title = "White Members' Store  -:-  Thread " + this.thread_id;        
+        } else {
+          this.page_title = "White Members' Store";
+        }
+      }
       this.message = "\n" + 'Loading AI list ...' + "\n";
       gj_text_get( '/airespaker/index.php?method=ais_list&token=' + encodeURIComponent(this.token), 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
