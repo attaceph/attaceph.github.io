@@ -62,7 +62,11 @@ const HuntableLoginPage = {
           v_this.$emit( 'set_token', token );
           v_this.$emit( 'set_username', v_this.username );
           v_this.$emit( 'go_page', 'dashboard' );
-          localStorage.setItem('paysellable_airespaker_token', token);
+          if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+            localStorage.setItem('paysellablews_airespaker_token', token);
+          } else {
+            localStorage.setItem('paysellable_airespaker_token', token);
+          }
         } else if ( text.indexOf('Error:') >= 0) {
           let msg = text.substring(6).trim();
           v_this.message = "\n" + msg + "\n";
