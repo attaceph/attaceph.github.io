@@ -34,7 +34,7 @@ const HuntableRegisterPage = {
 <div v-show="message != ''" class="register-result"><br/>- Results -----------|_|-----------------------<br/>
 {{ message }}<br/>-----------------------------------------------<br/><br/></div>
 
-<input type="button" class="register-button" value="Register" v-on:click="doRegister" /> &nbsp; <input type="button" class="profile-button-2" value="Login" onclick="location='/login/';" /> &nbsp; <input type="button" class="profile-button-2" value="Cancel" v-on:click="doCancel" />
+<input type="button" class="register-button" value="Register" v-on:click="doRegister" /> &nbsp; <input type="button" class="profile-button-2" value="Login" v-on:click="doLogin" /> &nbsp; <input type="button" class="profile-button-2" value="Cancel" v-on:click="doCancel" />
   </div></div>
 `,
   emits: [ 'go_page', 'set_token' ],
@@ -74,6 +74,9 @@ const HuntableRegisterPage = {
     },
     doCancel() {
       this.$emit( 'go_page', 'home' );
+    },
+    doLogin() {
+      this.$emit( 'go_page', 'login' );
     }
   }
 };

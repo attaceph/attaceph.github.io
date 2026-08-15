@@ -23,9 +23,7 @@ const HuntableOnlinePage = {
   template: `<div v-show="online && page == 'home'" class="online-page"><div class="online-page-inner">=======_==========================<span v-on:click="hide=false">_</span>============<br/>{{ online_page_text }}
 
 <input type="button" class="online-button-2" @click="go_page('login')" value="Login" /> &nbsp; <input  v-show="premium == ''" type="button" class="online-button-2" @click="go_page('register')" value="Register" />
-</div>
 
-  </div>
   </div>
   </div>
   <login_page v-show="online && page == 'login'" ref="login_page" @go_page="go_page" @set_token="set_token" @set_username="set_username"></login_page>  
@@ -33,8 +31,6 @@ const HuntableOnlinePage = {
   <take_page v-show="online && page == 'take'" ref="take_page" @go_page="go_page" @set_token="set_token"></take_page>  
   <profile_page v-show="online && page == 'profile'" ref="profile_page" @go_page="go_page" @set_token="set_token"></profile_page>  
   <register_page v-show="online && page == 'register'" ref="register_page" @go_page="go_page" @set_token="set_token"></register_page>  
-  <aircache_page v-show="online && page == 'aircache'" ref="aircache_page" @go_page="go_page" @set_token="set_token"></aircache_page>  
-  <savecache_page v-show="online && page == 'savecache'" ref="savecache_page" @go_page="go_page" @set_token="set_token"></savecache_page>  
 `,
   emits: [ 'update_online' ],
   data() {
@@ -91,14 +87,6 @@ const HuntableOnlinePage = {
         this.$refs.profile_page.doPrepare(this.token);      
       } else if ( value == 'dashboard' ) {
         this.$refs.dashboard_page.doPrepare(this.token);      
-      } else if ( value == 'aircache' ) {
-        window.open( 'https://respache.is-best.net', '_blank');
-        return;
-        this.$refs.aircache_page.doPrepare(this.token, this.username);      
-      } else if ( value == 'savecache' ) {
-        window.open( 'https://respache.is-best.net', '_blank');
-        return;
-        this.$refs.savecache_page.doPrepare(this.token, this.username);      
       }
       this.page = value;
     },
