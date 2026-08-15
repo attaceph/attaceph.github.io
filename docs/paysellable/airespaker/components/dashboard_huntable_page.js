@@ -163,7 +163,10 @@ const HuntableDashboardPage = {
         }
       });      
       this.doUpdateAllTags();
-      this.doFilterByAI('');
+      if ( go_has_ws || (window.top.location + '').indexOf('ws=y') >= 0 ) {
+      } else {
+        this.doFilterByAI('');
+      }
     },
     doFilterByAI(ai, tag = 'thread-' + this.thread_id) {
       this.air_list_ai_slug = ai;
