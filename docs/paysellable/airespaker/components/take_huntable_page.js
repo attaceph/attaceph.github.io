@@ -75,6 +75,25 @@ const HuntableTakePage = {
         cont = cont.replaceAll('</div>', '');
         cont = cont.replaceAll('<br />', "\n");
         cont = cont.replaceAll('<br/>', "\n");
+        cont = cont.replaceAll('&amp;', "&");
+        let idx = cont.indexOf('+ Product URL: ');
+        if ( idx >= 0 ) {
+          let tmp = cont.substring( idx + '+ Product URL: '.length ).trim();
+          cont = cont.substring(0, idx + '+ Product URL: '.length );
+          idx = tmp.indexOf('href="');
+          if ( idx >= 0 ) {
+            let idx2 = tmp.indexOf( '"', idx + 6 );
+            if ( idx2 >= 0 ) {
+              let link = tmp.substring( idx + 6, idx2 );
+              let title = link;
+              if ( link.indexOf( 'producthunt.com' ) >= 0 ) {
+                title = title.replaceAll('https://', '');
+                title = title.replaceAll('www', '');
+              }
+              cont += '[' + title + '](' + link + ')';
+            }
+          }
+        }
         this.query = cont;
       }
       this.message = '';
@@ -131,6 +150,9 @@ const HuntableTakePage = {
     },
     doTake() {
       let v_this = this;
+      if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
+        this.machine = 'others';
+      }
       let ai = 'Other AIs';
       if (this.machine == 'google-ai-search') {
         ai = 'Google AI Search';
