@@ -64,6 +64,7 @@ const HuntableLoginPage = {
           v_this.$emit( 'go_page', 'dashboard' );
           if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
             localStorage.setItem('paysellablews_airespaker_token', token);
+            console.log('[WS] Token: | ' + token + " |\n");
           } else {
             localStorage.setItem('paysellable_airespaker_token', token);
           }
