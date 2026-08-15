@@ -18,7 +18,7 @@ const gv_dashboard_page_text = `=======_==========================_============
 const HuntableDashboardPage = {
   template: `<div class="dashboard-page"><div class="dashboard-page-inner">{{ dashboard_page_text }}<br/>{{ page_title }}<br/>===============================================<br/><br/>
     
-<span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; </span><input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; <input type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" />
+<span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; </span><span v-show="has_logout"><input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; </span><input v-show="has_take" type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" />
 
 <br/><br/><br/>-Filtered by code ---|_|--( query, keywords )--<br/>
 <input type="text" class="dashboard-text" v-model="code" />&nbsp;<input type="button" class="dashboard-button" @click="doFilterByAI('', '')" value="Enter" />
@@ -47,7 +47,7 @@ const HuntableDashboardPage = {
 <input type="button" class="dashboard-button-2" value="&lt;&lt;" v-on:click="doAIRListBack" /> &nbsp; [ {{ air_list_ai_page_no }} ] &nbsp; <input type="button" class="dashboard-button-2" value="&gt;&gt;" v-on:click="doAIRListNext" />
   </div>
   <div :class="item.full ? 'dashboard-air-list-item dashboard-air-list-item-full' : 'dashboard-air-list-item  dashboard-air-list-item-half'" v-for="item in air_list_ai">
-  <div class="dashboard-air-list-item-toolbar"><input type="button" :class="item.full ? 'dashboard-button' : 'dashboard-button-2'" value="&lt;|" v-on:click="doAIRListItemTurnOff(item)" />&nbsp;<input type="button" :class="item.full ? 'dashboard-button-2' : 'dashboard-button'" value="|&gt;" v-on:click="doAIRListItemTurnOn(item)" />&nbsp;[ {{ item.no }} : {{ item.code }} ]&nbsp;<input type="button" class="dashboard-button" value="X" v-on:click="doDeleteAIR(item.code)" style="margin-right: 5px; margin-bottom: 5px;" /><input type="button" class="dashboard-button" value="C" v-on:click="doCopyAIR(item)" style="margin-right: 5px; margin-bottom: 5px;" />&nbsp;<input type="button" class="dashboard-button" value="U" v-on:click="doUpdateAIR(item)" style="margin-right: 5px; margin-bottom: 5px;" /><input type="button" class="dashboard-button-2" :value="item.ai_name" v-on:click="doFilterByAI(item.ai_slug)" style="margin-right: 10px; margin-bottom: 5px;" /><input v-for="part in item.tags" type="button" class="dashboard-button-2" :value="part" v-on:click="doFilterByAI('', part)" style="margin-right: 10px; margin-bottom: 5px;" />
+  <div class="dashboard-air-list-item-toolbar"><input type="button" :class="item.full ? 'dashboard-button' : 'dashboard-button-2'" value="&lt;|" v-on:click="doAIRListItemTurnOff(item)" />&nbsp;<input type="button" :class="item.full ? 'dashboard-button-2' : 'dashboard-button'" value="|&gt;" v-on:click="doAIRListItemTurnOn(item)" />&nbsp;[ {{ item.no }} : {{ item.code }} ]&nbsp;<input v-show="has_logout" type="button" class="dashboard-button" value="X" v-on:click="doDeleteAIR(item.code)" style="margin-right: 5px; margin-bottom: 5px;" /><input type="button" class="dashboard-button" value="C" v-on:click="doCopyAIR(item)" style="margin-right: 5px; margin-bottom: 5px;" />&nbsp;<input v-show="has_logout" type="button" class="dashboard-button" value="U" v-on:click="doUpdateAIR(item)" style="margin-right: 5px; margin-bottom: 5px;" /><input type="button" class="dashboard-button-2" :value="item.ai_name" v-on:click="doFilterByAI(item.ai_slug)" style="margin-right: 10px; margin-bottom: 5px;" /><input v-for="part in item.tags" type="button" class="dashboard-button-2" :value="part" v-on:click="doFilterByAI('', part)" style="margin-right: 10px; margin-bottom: 5px;" />
   </div>
   <div class="dashboard-air-list-item-text" v-html="item.reply">
   </div>
@@ -63,6 +63,7 @@ const HuntableDashboardPage = {
       thread_subject: go_thread_subject,
       page_title: 'Dashboard',
       has_logout: true,
+      has_take: true,
       token: '',
       code: '',
       message: '',
@@ -105,6 +106,11 @@ const HuntableDashboardPage = {
       this.token = token;
       if ( (window.top.location + '').indexOf('ws=y') >= 0 ) {
         this.has_logout = false;
+        if ( (window.top.location + '').indexOf('take=y') >= 0 ) {
+          this.has_take = true;
+        } else {
+          this.has_take = false;
+        }
       }
       let v_this = this;
       this.ais_list = [];
