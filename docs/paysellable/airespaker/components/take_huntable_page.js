@@ -72,6 +72,8 @@ const HuntableTakePage = {
         cont = cont.replaceAll('<div class="quote no_header">', '');
         cont = cont.replaceAll('<div class="quote_body">', '');
         cont = cont.replaceAll('<div class="quote_clear">', '');
+        cont = cont.replaceAll('==|', '==)');
+        cont = cont.replaceAll('|==', '(==');
         cont = cont.replaceAll('</div>', '');
         cont = cont.replaceAll('<br />', "\n");
         cont = cont.replaceAll('<br/>', "\n");
@@ -88,7 +90,7 @@ const HuntableTakePage = {
               let title = link;
               if ( link.indexOf( 'producthunt.com' ) >= 0 ) {
                 title = title.replaceAll('https://', '');
-                title = title.replaceAll('www', '');
+                title = title.replaceAll('www.', '');
               }
               cont += '[' + title + '](' + link + ')';
             }
@@ -192,6 +194,3 @@ const HuntableTakePage = {
     }
   }
 };
-
-
-
