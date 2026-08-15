@@ -129,7 +129,7 @@ const HuntableDashboardPage = {
         if ( this.thread_subject !== '' ) {
           this.page_title = "    White Members' Store  -:-  Thread " + this.thread_id;        
         } else {
-          this.page_title = "          White Members' Store";
+          this.page_title = "             White Members' Store";
         }
       }
       this.message = "\n" + 'Loading AI list ...' + "\n";
