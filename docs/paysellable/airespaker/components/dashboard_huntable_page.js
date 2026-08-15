@@ -13,14 +13,10 @@ const gv_dashboard_page_text = `=======_==========================_============
  \\__,_\|_\| \|_\| \\___/__/ .__/ \\__,_\|_\\_\\___\|_\|  
 =====================\|_\|=======================
               AI Response Taker
-                 --- oOo ---
-                  Dashboard
-===============================================
-
-`;
+                 --- oOo ---`;
 
 const HuntableDashboardPage = {
-  template: `<div class="dashboard-page"><div class="dashboard-page-inner">{{ dashboard_page_text }}
+  template: `<div class="dashboard-page"><div class="dashboard-page-inner">{{ dashboard_page_text }}<br/>{{ page_title }}<br/>===============================================<br/>
     
 <input type="button" class="dashboard-button-2" @click="doLogout" value="Logout" /> &nbsp; <input type="button" class="dashboard-button-2" @click="doProfile" value="Profile" /> &nbsp; <input type="button" class="dashboard-button-2" @click="doTake" value="Take AIR" />
 
@@ -64,6 +60,8 @@ const HuntableDashboardPage = {
     return {
       dashboard_page_text: gv_dashboard_page_text,
       thread_id: go_thread_id,
+      thread_subject: go_thread_subject,
+      page_title: 'Dashboard',
       token: '',
       code: '',
       message: '',
@@ -114,6 +112,7 @@ const HuntableDashboardPage = {
       this.all_tags_show = 'no';
       this.all_tags_full = false;
       this.all_ais_full = false;
+      this.page_title = '[ Thread ' + this.thread_id + ' ] ' + this.thread_subject;
       this.message = "\n" + 'Loading AI list ...' + "\n";
       gj_text_get( '/airespaker/index.php?method=ais_list&token=' + encodeURIComponent(this.token), 'n', function( text ) {
         if ( text.indexOf('Success:') >= 0 ) {
