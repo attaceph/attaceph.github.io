@@ -22,6 +22,19 @@ const gv_online_page_text_2 = `
 const HuntableOnlinePage = {
   template: `<div v-show="online && page == 'home'" class="online-page"><div class="online-page-inner">=======_==========================<span v-on:click="hide=false">_</span>============<br/>{{ online_page_text }}
 
+<br/><br/>---------------------|_|-----------------------<br/>
+         [ Shared Notes - Paysellable ] <br/>
+Use this account to get FAQ & research information<br/>
+-----------------------------------------------<br/>
+<br/>
++ Username: paysellable<br/>
++ Password: ReadyToPayFor<br/>
+<br/>
+** Notes: After logged in, select first tag to get FAQ<br/>
+          & research information</br>
+<br/>
+-----------------------------------------------<br/>
+<br/>
 <input type="button" class="online-button-2" @click="go_page('login')" value="Login" /> &nbsp; <input  v-show="premium == ''" type="button" class="online-button-2" @click="go_page('register')" value="Register" />
 
   </div>
