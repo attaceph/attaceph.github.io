@@ -37,7 +37,7 @@ const ProfilePage = {
 <div v-show="message != ''" class="profile-result"><br/>- Results -----------|_|-----------------------<br/>
 {{ message }}<br/>-----------------------------------------------<br/><br/></div>
 
-<input type="button" class="profile-button" value="Update" v-on:click="doUpdate" /> &nbsp; <input type="button" class="profile-button-2" value="Canel" v-on:click="doCancel" />
+<input type="button" class="profile-button" value="Update" v-on:click="doUpdate" /> &nbsp; <input type="button" class="profile-button-2" value="Cancel" v-on:click="doCancel" />
   </div></div>
 `,
   emits: [ 'go_page', 'set_token' ],
