@@ -1,302 +1,302 @@
 [
     {
         "no": 1,
-        "product_name": "Joy",
-        "product_url": "https:\/\/www.producthunt.com\/products\/joy-celebrate-your-wins",
-        "tagline": "A Mac menu bar app that throws confetti for your wins"
+        "product_name": "Blume",
+        "product_url": "https:\/\/www.producthunt.com\/products\/blume-3",
+        "tagline": "AI-ready, Markdown-first documentation framework"
     },
     {
         "no": 2,
-        "product_name": "Clamshell",
-        "product_url": "https:\/\/www.producthunt.com\/products\/clamshell",
-        "tagline": "Close your MacBook. Keep the work running."
+        "product_name": "Chert",
+        "product_url": "https:\/\/www.producthunt.com\/products\/chert",
+        "tagline": "Vapi for FaceTime: AI video agents in a few lines"
     },
     {
         "no": 3,
-        "product_name": "Attyn",
-        "product_url": "https:\/\/www.producthunt.com\/products\/attyn",
-        "tagline": "Bringing intelligence to your cursor"
+        "product_name": "Vidaya",
+        "product_url": "https:\/\/www.producthunt.com\/products\/vidaya",
+        "tagline": "Healthspan score from your wearables, labs, and DNA. "
     },
     {
         "no": 4,
-        "product_name": "nenspace",
-        "product_url": "https:\/\/www.producthunt.com\/products\/nenspace",
-        "tagline": "the lo-fi of LLMs: your mind, made larger"
+        "product_name": "HarnessRouter Community Edition",
+        "product_url": "https:\/\/www.producthunt.com\/products\/epsilla",
+        "tagline": "Open-source unified interface for agent harnesses"
     },
     {
         "no": 5,
-        "product_name": "SalesCloser.ai",
-        "product_url": "https:\/\/www.producthunt.com\/products\/salescloser-ai",
-        "tagline": "Proactive sales agent that books, shows up, and runs demos"
+        "product_name": "CostLogic",
+        "product_url": "https:\/\/www.producthunt.com\/products\/costlogic",
+        "tagline": "AI-powered construction takeoffs, estimates, and invoices"
     },
     {
         "no": 6,
-        "product_name": "Chronock",
-        "product_url": "https:\/\/www.producthunt.com\/products\/chronock",
-        "tagline": "Scheduling and calendar sync, all in one"
+        "product_name": "AirAlarm",
+        "product_url": "https:\/\/www.producthunt.com\/products\/airalarm",
+        "tagline": "Wake at the end of your sleep cycle"
     },
     {
         "no": 7,
-        "product_name": "Big Mike",
-        "product_url": "https:\/\/www.producthunt.com\/products\/big-mike",
-        "tagline": "Your favorite uncle who knows sports &amp; bets, on iMessage"
+        "product_name": "Expeditione",
+        "product_url": "https:\/\/www.producthunt.com\/products\/expeditione",
+        "tagline": "The Interactive 3D Encyclopedia"
     },
     {
         "no": 8,
-        "product_name": "Inferock Bench",
-        "product_url": "https:\/\/www.producthunt.com\/products\/inferock-bench",
-        "tagline": "An independent receipt for every LLM API call"
+        "product_name": "Open Analytics",
+        "product_url": "https:\/\/www.producthunt.com\/products\/open-analytics-2",
+        "tagline": "AI-native Google Analytics alternative for the modern web"
     },
     {
         "no": 9,
-        "product_name": "FileRouter",
-        "product_url": "https:\/\/www.producthunt.com\/products\/filerouter",
-        "tagline": "Take control of files and editors"
+        "product_name": "Subscrr",
+        "product_url": "https:\/\/www.producthunt.com\/products\/subscrrr",
+        "tagline": "All your subscriptions. And what they really cost."
     },
     {
         "no": 10,
-        "product_name": "Bruno",
-        "product_url": "https:\/\/www.producthunt.com\/products\/bruno-6",
-        "tagline": "The Git-native API client. Local-first, open source."
+        "product_name": "Page to Markdown",
+        "product_url": "https:\/\/www.producthunt.com\/products\/page-to-markdown",
+        "tagline": "Clean Markdown from any webpage, right beside it."
     },
     {
         "no": 11,
-        "product_name": "GLM-5.3",
-        "product_url": "https:\/\/www.producthunt.com\/products\/z-ai",
-        "tagline": "Coding leap from scaled post-training on the same base"
-    },
-    {
-        "no": 12,
-        "product_name": "Zetik",
-        "product_url": "https:\/\/www.producthunt.com\/products\/zetik",
-        "tagline": "A chief of staff in your pocket"
-    },
-    {
-        "no": 13,
-        "product_name": "Talvo",
-        "product_url": "https:\/\/www.producthunt.com\/products\/talvo-2",
-        "tagline": "Connect 2,500+ European banks to track your spending"
-    },
-    {
-        "no": 14,
-        "product_name": "Cozy Coast",
-        "product_url": "https:\/\/www.producthunt.com\/products\/cozy-coast",
-        "tagline": "A tiny fishing game that lives in the corner of your screen."
-    },
-    {
-        "no": 15,
-        "product_name": "SaveToSheets",
-        "product_url": "https:\/\/www.producthunt.com\/products\/savetosheets",
-        "tagline": "Forward any email into a clean Google Sheets row"
-    },
-    {
-        "no": 16,
-        "product_name": "Valkence - Monitor Internet Culture",
-        "product_url": "https:\/\/www.producthunt.com\/products\/valkence",
-        "tagline": "Track, predict, and celebrate what's shaping the internet"
-    },
-    {
-        "no": 17,
-        "product_name": "Customer.io",
-        "product_url": "https:\/\/www.producthunt.com\/products\/customer-io",
-        "tagline": "Automate Messaging Everywhere \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Startups Get 12 Months Free"
-    },
-    {
-        "no": 18,
-        "product_name": "Waivly - For Ambitious Professionals",
-        "product_url": "https:\/\/www.producthunt.com\/products\/waivly",
-        "tagline": "Connect, learn, and grow with ambitious professionals"
-    },
-    {
-        "no": 19,
-        "product_name": "Gmail Mark as Read",
-        "product_url": "https:\/\/www.producthunt.com\/products\/gmail-mark-as-read",
-        "tagline": "Clear Gmail unread page by page. Confirm first."
-    },
-    {
-        "no": 20,
-        "product_name": "Konjac",
-        "product_url": "https:\/\/www.producthunt.com\/products\/konjac",
-        "tagline": "Capture, OCR, and translate without leaving the camera"
-    },
-    {
-        "no": 21,
-        "product_name": "SketchAlong",
-        "product_url": "https:\/\/www.producthunt.com\/products\/sketchalong",
-        "tagline": "Explore how objects fit together, then watch them come alive"
-    },
-    {
-        "no": 22,
-        "product_name": "Lightfield",
-        "product_url": "https:\/\/www.producthunt.com\/products\/lightfield",
-        "tagline": "AI-native CRM that builds itself and does work for you"
-    },
-    {
-        "no": 23,
-        "product_name": "WorldClock",
-        "product_url": "https:\/\/www.producthunt.com\/products\/worldclock-2",
-        "tagline": "Your time, and everyone else's"
-    },
-    {
-        "no": 24,
-        "product_name": "RightSizeFast",
-        "product_url": "https:\/\/www.producthunt.com\/products\/rightsizefast",
-        "tagline": "Image resizing without the hassle"
-    },
-    {
-        "no": 25,
-        "product_name": "HalteWecker (Transit Alarm)",
-        "product_url": "https:\/\/www.producthunt.com\/products\/haltewecker-transit-alarm",
-        "tagline": "Never miss your stop"
-    },
-    {
-        "no": 26,
-        "product_name": "Nick Launches",
-        "product_url": "https:\/\/www.producthunt.com\/products\/nick-launches-2",
-        "tagline": "Launch your product to thousands of builders."
-    },
-    {
-        "no": 27,
-        "product_name": "Viktor.com",
-        "product_url": "https:\/\/www.producthunt.com\/products\/viktor",
-        "tagline": "An AI coworker that actually does the work"
-    },
-    {
-        "no": 28,
-        "product_name": " Wizin: Magical News Journal",
-        "product_url": "https:\/\/www.producthunt.com\/products\/wizin-magical-news-journal",
-        "tagline": "Turn your daily journal into a magical, moving newspaper."
-    },
-    {
-        "no": 29,
-        "product_name": "Supercut - AI Video Editor",
-        "product_url": "https:\/\/www.producthunt.com\/products\/supercut-ai-video-editor",
-        "tagline": "Type the edit. Record your screen. Zero uploads."
-    },
-    {
-        "no": 30,
-        "product_name": "Fotonest",
-        "product_url": "https:\/\/www.producthunt.com\/products\/fotonest",
-        "tagline": "Guests find their own event photos with one selfie"
-    },
-    {
-        "no": 31,
-        "product_name": "Animated Icon Generator",
-        "product_url": "https:\/\/www.producthunt.com\/products\/animated-icon-generator",
-        "tagline": "300 free animated SVG icons you can customize and download"
-    },
-    {
-        "no": 32,
         "product_name": "Wispr Flow: Dictation That Works Everywhere",
         "product_url": "https:\/\/www.producthunt.com\/products\/wisprflow",
         "tagline": "Stop typing. Start speaking. 4x faster. "
     },
     {
-        "no": 33,
-        "product_name": "DeadEye",
-        "product_url": "https:\/\/www.producthunt.com\/products\/deadeye",
-        "tagline": "He doesn't waste shots"
+        "no": 12,
+        "product_name": "InspectRescue",
+        "product_url": "https:\/\/www.producthunt.com\/products\/inspectrescue",
+        "tagline": "Failed health inspection? Get your pass kit in minutes."
     },
     {
-        "no": 34,
-        "product_name": "Mozy: Walk to Unlock Apps",
-        "product_url": "https:\/\/www.producthunt.com\/products\/mozy-walk-to-unlock-apps",
-        "tagline": "\u00c3\u00b0\u00c2\u009f\u00c2\u008c\u00c2\u00b1 Walk More. Scroll Less. Unlock Apps with Movement."
+        "no": 13,
+        "product_name": "PrivyLens",
+        "product_url": "https:\/\/www.producthunt.com\/products\/privylens",
+        "tagline": "PrivyLens: Blur &amp; Redact Photo"
     },
     {
-        "no": 35,
-        "product_name": "EMTranslator",
-        "product_url": "https:\/\/www.producthunt.com\/products\/emtranslator",
-        "tagline": "English text into Monsu language using a word dictionary. "
+        "no": 14,
+        "product_name": "NullOrigin",
+        "product_url": "https:\/\/www.producthunt.com\/products\/nullorigin",
+        "tagline": "Strip AI watermarks and C2PA metadata with a local proxy."
     },
     {
-        "no": 36,
-        "product_name": "TikTok Live Recorder",
-        "product_url": "https:\/\/www.producthunt.com\/products\/tiktok-live-recorder",
-        "tagline": "Automatically record TikTok live from your favorite creators"
+        "no": 15,
+        "product_name": "Intervu",
+        "product_url": "https:\/\/www.producthunt.com\/products\/intervu-2",
+        "tagline": "Search 2M+ live jobs from inside Claude"
     },
     {
-        "no": 37,
-        "product_name": "ilolink",
-        "product_url": "https:\/\/www.producthunt.com\/products\/ilolink",
-        "tagline": "The registry your team's AI agents actually read"
-    },
-    {
-        "no": 38,
-        "product_name": "DocxToWP - WordPress Import &amp; Schedule",
-        "product_url": "https:\/\/www.producthunt.com\/products\/docxtowp",
-        "tagline": "Import 100 Word documents and schedule them in minutes"
-    },
-    {
-        "no": 39,
-        "product_name": "Toolverse",
-        "product_url": "https:\/\/www.producthunt.com\/products\/toolverse-8",
-        "tagline": "100+ free tools that never upload your files"
-    },
-    {
-        "no": 40,
-        "product_name": "Free Image Tools",
-        "product_url": "https:\/\/www.producthunt.com\/products\/free-image-tools-3",
-        "tagline": "Edit, convert, compress, and protect image files."
-    },
-    {
-        "no": 41,
-        "product_name": "Coramelo",
-        "product_url": "https:\/\/www.producthunt.com\/products\/coramelo",
-        "tagline": "Hire truck drivers per job \u00c3\u00a2\u00c2\u0080\u00c2\u0094 no agency, no commission"
-    },
-    {
-        "no": 42,
-        "product_name": "H9A",
-        "product_url": "https:\/\/www.producthunt.com\/products\/h9a",
-        "tagline": "Count any digit in any range \u00c3\u00a2\u00c2\u0080\u00c2\u0094 instantly."
-    },
-    {
-        "no": 43,
-        "product_name": "AdmitPlus.AI",
-        "product_url": "https:\/\/www.producthunt.com\/products\/admitplus-ai",
-        "tagline": "A multimodal AI learning team, built around you."
-    },
-    {
-        "no": 44,
-        "product_name": "Aruki \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Japanese Interval Walking Coach",
-        "product_url": "https:\/\/www.producthunt.com\/products\/aruki-japanese-interval-walking-coach",
-        "tagline": "Japanese Interval Walking, coached on your iPhone"
-    },
-    {
-        "no": 45,
+        "no": 16,
         "product_name": "Fin ",
         "product_url": "https:\/\/www.producthunt.com\/products\/fin",
         "tagline": "Startups get Fin free for a year + 93% off Intercom"
     },
     {
+        "no": 17,
+        "product_name": "Fottory",
+        "product_url": "https:\/\/www.producthunt.com\/products\/fottory",
+        "tagline": "Check your dating photos free, then generate better ones"
+    },
+    {
+        "no": 18,
+        "product_name": "crosswalk mcp",
+        "product_url": "https:\/\/www.producthunt.com\/products\/crosswalk-mcp",
+        "tagline": "like reddit in claude code"
+    },
+    {
+        "no": 19,
+        "product_name": "CXRompix: Free Bulk Image Downloader",
+        "product_url": "https:\/\/www.producthunt.com\/products\/cxrompix-free-bulk-image-downloader",
+        "tagline": "How to save images from any website:safely extract HD photos"
+    },
+    {
+        "no": 20,
+        "product_name": "Vehla",
+        "product_url": "https:\/\/www.producthunt.com\/products\/vehla",
+        "tagline": "Vehla \u00c3\u00a2\u00c2\u0080\u00c2\u0093 One Command Center for Your Entire Mac"
+    },
+    {
+        "no": 21,
+        "product_name": "Viktor.com",
+        "product_url": "https:\/\/www.producthunt.com\/products\/viktor",
+        "tagline": "An AI coworker that actually does the work"
+    },
+    {
+        "no": 22,
+        "product_name": "Vaaya",
+        "product_url": "https:\/\/www.producthunt.com\/products\/vaaya",
+        "tagline": "Turn your Github profile into Credit Card for your agents"
+    },
+    {
+        "no": 23,
+        "product_name": "Agentinel",
+        "product_url": "https:\/\/www.producthunt.com\/products\/agentinel",
+        "tagline": "The local security guardrail for AI coding agents"
+    },
+    {
+        "no": 24,
+        "product_name": "Jovethra Developer Cloud",
+        "product_url": "https:\/\/www.producthunt.com\/products\/jovethra-developer-cloud",
+        "tagline": "Big AI quotas for builders who let their agents cook."
+    },
+    {
+        "no": 25,
+        "product_name": "Customer.io",
+        "product_url": "https:\/\/www.producthunt.com\/products\/customer-io",
+        "tagline": "Automate Messaging Everywhere \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Startups Get 12 Months Free"
+    },
+    {
+        "no": 26,
+        "product_name": "Picmovi | Unlimited Photo To Video",
+        "product_url": "https:\/\/www.producthunt.com\/products\/picmovi-unlimited-photo-to-video",
+        "tagline": " As a versatile image to video ai tool"
+    },
+    {
+        "no": 27,
+        "product_name": "LockIn",
+        "product_url": "https:\/\/www.producthunt.com\/products\/lockin-5",
+        "tagline": "Know what to do with your crypto portfolio today"
+    },
+    {
+        "no": 28,
+        "product_name": "When",
+        "product_url": "https:\/\/www.producthunt.com\/products\/when-2",
+        "tagline": "Remember everything. Forget nothing."
+    },
+    {
+        "no": 29,
+        "product_name": "TinyComp",
+        "product_url": "https:\/\/www.producthunt.com\/products\/tinycomp",
+        "tagline": "No.1 Batch Media Compressor for images &amp; videos! 100% Local"
+    },
+    {
+        "no": 30,
+        "product_name": "Meet Bruno",
+        "product_url": "https:\/\/www.producthunt.com\/products\/bruno-6",
+        "tagline": "Send a request, commit the collection. No account, no cloud."
+    },
+    {
+        "no": 31,
+        "product_name": "Asakiri Studio",
+        "product_url": "https:\/\/www.producthunt.com\/products\/asakiri",
+        "tagline": "Local first language course creation platform"
+    },
+    {
+        "no": 32,
+        "product_name": "boomation",
+        "product_url": "https:\/\/www.producthunt.com\/products\/boomation",
+        "tagline": "A Notion-like home for your private bookmarks"
+    },
+    {
+        "no": 33,
+        "product_name": "Mistria Guide",
+        "product_url": "https:\/\/www.producthunt.com\/products\/mistria-guide",
+        "tagline": "Fields of Mistria guide for gifts, fish &amp; crops"
+    },
+    {
+        "no": 34,
+        "product_name": "Cutsio Frameboard",
+        "product_url": "https:\/\/www.producthunt.com\/products\/cutsio",
+        "tagline": "Create a storyboard and contact sheet from any video"
+    },
+    {
+        "no": 35,
+        "product_name": "Take a  breather. You are doing enough.",
+        "product_url": "https:\/\/www.producthunt.com\/products\/take-a-breather-you-are-doing-enough",
+        "tagline": "Productivity,Health and Fitness, Mental Health, WebApp"
+    },
+    {
+        "no": 36,
+        "product_name": "WorkForge \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Upwork Clone Source Code",
+        "product_url": "https:\/\/www.producthunt.com\/products\/workforge-upwork-clone-source-code",
+        "tagline": "Full Upwork clone source code with jobs, payments &amp; admin"
+    },
+    {
+        "no": 37,
+        "product_name": "Nuecue \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Voice-Aware Teleprompter",
+        "product_url": "https:\/\/www.producthunt.com\/products\/nuecue-voice-aware-teleprompter",
+        "tagline": "The teleprompter that follows your voice \u00c3\u00a2\u00c2\u0080\u00c2\u0094 and edits it"
+    },
+    {
+        "no": 38,
+        "product_name": "Effect Curve",
+        "product_url": "https:\/\/www.producthunt.com\/products\/effect-curve",
+        "tagline": "Felt medication effect over time"
+    },
+    {
+        "no": 39,
+        "product_name": "Lightfield",
+        "product_url": "https:\/\/www.producthunt.com\/products\/lightfield",
+        "tagline": "AI-native CRM that builds itself and does work for you"
+    },
+    {
+        "no": 40,
+        "product_name": "GetAppNiche",
+        "product_url": "https:\/\/www.producthunt.com\/products\/getappniche",
+        "tagline": "\u00c3\u00b0\u00c2\u009f\u00c2\u0092\u00c2\u00b0 Stop building apps nobody wants. See what any app earns"
+    },
+    {
+        "no": 41,
+        "product_name": "Factualizer",
+        "product_url": "https:\/\/www.producthunt.com\/products\/factualizer",
+        "tagline": "Remove propaganda from news articles and keep only the facts"
+    },
+    {
+        "no": 42,
+        "product_name": "Kotisso",
+        "product_url": "https:\/\/www.producthunt.com\/products\/kotisso",
+        "tagline": "Split shared expenses: flatshares, trips, separated parents"
+    },
+    {
+        "no": 43,
+        "product_name": "Crypto QR Code Generator by QRMaster",
+        "product_url": "https:\/\/www.producthunt.com\/products\/qr-master-2",
+        "tagline": "Create a crypto payment QR code in seconds - free to share."
+    },
+    {
+        "no": 44,
+        "product_name": "ElevenAgents by ElevenLabs",
+        "product_url": "https:\/\/www.producthunt.com\/products\/elevenlabs",
+        "tagline": "Scale conversations without scaling your team"
+    },
+    {
+        "no": 45,
+        "product_name": "Assetli.app",
+        "product_url": "https:\/\/www.producthunt.com\/products\/assetli-app",
+        "tagline": "Personal finance &amp; net worth, wired to your AI"
+    },
+    {
         "no": 46,
-        "product_name": "Relocation &amp; Cost-of-Living Calculator",
-        "product_url": "https:\/\/www.producthunt.com\/products\/relocation-cost-of-living-calculator",
-        "tagline": "Find out if that job offer is really a raise"
+        "product_name": "ForeverPlan \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Wedding Budget Planner",
+        "product_url": "https:\/\/www.producthunt.com\/products\/foreverplan-wedding-budget-planner",
+        "tagline": "Plan the day. Protect the budget."
     },
     {
         "no": 47,
-        "product_name": "Framechain",
-        "product_url": "https:\/\/www.producthunt.com\/products\/framechain",
-        "tagline": "The Indie AI Video Workstation For Everyone!"
+        "product_name": "Scaloom",
+        "product_url": "https:\/\/www.producthunt.com\/products\/scaloom",
+        "tagline": "AI-powered Reddit marketing for Google &amp; AI search"
     },
     {
         "no": 48,
-        "product_name": "AutoHDMI - Auto Switch to HDMI",
-        "product_url": "https:\/\/www.producthunt.com\/products\/autohdmi-auto-switch-to-hdmi",
-        "tagline": "Auto switch Google TV to HDMI input after a power cut"
+        "product_name": "Burnout Sentinel",
+        "product_url": "https:\/\/www.producthunt.com\/products\/burnout-sentinel",
+        "tagline": "Warning system burnout use workload and recovery indicators."
     },
     {
         "no": 49,
-        "product_name": "descrambleTHIS",
-        "product_url": "https:\/\/www.producthunt.com\/products\/descramblethis",
-        "tagline": "Turn scrambled facts into a game of progress"
+        "product_name": "LarpIn",
+        "product_url": "https:\/\/www.producthunt.com\/products\/larpin",
+        "tagline": "LinkedIn, but everyone admits they're larping"
     },
     {
         "no": 50,
-        "product_name": "Framer AI Agents",
-        "product_url": "https:\/\/www.producthunt.com\/products\/framer",
-        "tagline": "Design and publish professional sites with AI"
+        "product_name": "Nthly",
+        "product_url": "https:\/\/www.producthunt.com\/products\/nthly",
+        "tagline": "Nthly is a private and secure authenticator."
     }
 ]
