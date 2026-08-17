@@ -1,302 +1,302 @@
 [
     {
         "no": 51,
-        "product_name": "AgentOS",
-        "product_url": "https:\/\/www.producthunt.com\/products\/agentos-4",
-        "tagline": "Rust runtime for AI agents with time-travel replay"
+        "product_name": "AddonSmith",
+        "product_url": "https:\/\/www.producthunt.com\/products\/addonsmith",
+        "tagline": "Create Minecraft Bedrock addons without coding"
     },
     {
         "no": 52,
-        "product_name": "PixelGlass",
-        "product_url": "https:\/\/www.producthunt.com\/products\/pixelglass",
-        "tagline": "Make your Ghost Publication stand out from the crowd."
-    },
-    {
-        "no": 53,
         "product_name": "Tines ",
         "product_url": "https:\/\/www.producthunt.com\/products\/tines",
         "tagline": "The single, secure environment for agents, apps, and automations."
     },
     {
+        "no": 53,
+        "product_name": "Invitely",
+        "product_url": "https:\/\/www.producthunt.com\/products\/invitely-co-in",
+        "tagline": "Beautiful invitations. Effortless RSVPs."
+    },
+    {
         "no": 54,
-        "product_name": "SentryDock",
-        "product_url": "https:\/\/www.producthunt.com\/products\/sentrydock",
-        "tagline": "Real-time alerts on the news that moves markets"
+        "product_name": "ClipStack",
+        "product_url": "https:\/\/www.producthunt.com\/products\/clipstack-2",
+        "tagline": "Your clipboard, with a memory"
     },
     {
         "no": 55,
-        "product_name": "Menory - Your menu memory",
-        "product_url": "https:\/\/www.producthunt.com\/products\/menory-your-menu-memory",
-        "tagline": "Remember what you ordered"
+        "product_name": "DitherQR",
+        "product_url": "https:\/\/www.producthunt.com\/products\/ditherqr",
+        "tagline": "Turn images and links into scannable QR art"
     },
     {
         "no": 56,
-        "product_name": "Simple Calendar Sync",
-        "product_url": "https:\/\/www.producthunt.com\/products\/simple-calendar-sync",
-        "tagline": "Sync and merge your calendars locally. Private, offline."
+        "product_name": "AI SEO Playbook",
+        "product_url": "https:\/\/www.producthunt.com\/products\/ai-seo-playbook",
+        "tagline": "From zero to 4.6M impressions in 3 months."
     },
     {
         "no": 57,
-        "product_name": "Sena Slowblog",
-        "product_url": "https:\/\/www.producthunt.com\/products\/sena-slowblog",
-        "tagline": "a calm place to write"
+        "product_name": "AdmitPlus.AI",
+        "product_url": "https:\/\/www.producthunt.com\/products\/admitplus-ai",
+        "tagline": "A multimodal AI learning team, built around you."
     },
     {
         "no": 58,
-        "product_name": "Orkestrai",
-        "product_url": "https:\/\/www.producthunt.com\/products\/orkestrai",
-        "tagline": "Orchestrate a team of AI coding agents on a canvas"
+        "product_name": "RemovePDFPages",
+        "product_url": "https:\/\/www.producthunt.com\/products\/remove-pdf-pages",
+        "tagline": "Free PDF tools in your browser. No signup, no watermark."
     },
     {
         "no": 59,
-        "product_name": "Free Word Counter",
-        "product_url": "https:\/\/www.producthunt.com\/products\/free-word-counter-2",
-        "tagline": "Free word, character &amp; SEO counters with no ads or sign-up"
+        "product_name": "MeetingsAI: Notes &amp; Summary",
+        "product_url": "https:\/\/www.producthunt.com\/products\/meetingsai",
+        "tagline": "The private AI notetaker with on-device AI, works offline"
     },
     {
         "no": 60,
-        "product_name": "Hozaro",
-        "product_url": "https:\/\/www.producthunt.com\/products\/hozaro",
-        "tagline": "Build. Connect. Sell. Grow."
+        "product_name": "LibreNote AI",
+        "product_url": "https:\/\/www.producthunt.com\/products\/librenote-ai",
+        "tagline": "The open-source, self-hosted alternative to NotebookLM."
     },
     {
         "no": 61,
-        "product_name": "VoicePen AI",
-        "product_url": "https:\/\/www.producthunt.com\/products\/voicepen-ai-2",
-        "tagline": "Fastest way to write, think, and capture ideas on the web"
+        "product_name": "Customer.io",
+        "product_url": "https:\/\/www.producthunt.com\/products\/customer-io",
+        "tagline": "Automate Messaging Everywhere \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Startups Get 12 Months Free"
     },
     {
         "no": 62,
+        "product_name": "dsh-movein",
+        "product_url": "https:\/\/www.producthunt.com\/products\/dsh-movein",
+        "tagline": "Move your whole Claude Code setup into DeepSeek Harness"
+    },
+    {
+        "no": 63,
+        "product_name": "Valkence - Monitor Internet Culture",
+        "product_url": "https:\/\/www.producthunt.com\/products\/valkence",
+        "tagline": "Track, predict, and celebrate what's shaping the internet"
+    },
+    {
+        "no": 64,
+        "product_name": "Waivly - For Ambitious Professionals",
+        "product_url": "https:\/\/www.producthunt.com\/products\/waivly",
+        "tagline": "Connect, learn, and grow with ambitious professionals"
+    },
+    {
+        "no": 65,
+        "product_name": "Clipperia",
+        "product_url": "https:\/\/www.producthunt.com\/products\/clipperia",
+        "tagline": "Save time creating clips, rough cuts &amp; audio censorship"
+    },
+    {
+        "no": 66,
+        "product_name": "Account Benchmark",
+        "product_url": "https:\/\/www.producthunt.com\/products\/oriane",
+        "tagline": "Compare 2 Instagram or Tiktok accounts"
+    },
+    {
+        "no": 67,
+        "product_name": "Round Funded",
+        "product_url": "https:\/\/www.producthunt.com\/products\/round-funded",
+        "tagline": "Raise Money from Angel Investors on Autopilot"
+    },
+    {
+        "no": 68,
+        "product_name": "Annotate: File Drop ",
+        "product_url": "https:\/\/www.producthunt.com\/products\/annotate-8",
+        "tagline": "Free: Drop files as context for screen recording as prompt"
+    },
+    {
+        "no": 69,
+        "product_name": "PulseSync v2.0",
+        "product_url": "https:\/\/www.producthunt.com\/products\/pulsesync-health-insights",
+        "tagline": "Keep your everyday health data in one simple app."
+    },
+    {
+        "no": 70,
         "product_name": "Framer AI Agents",
         "product_url": "https:\/\/www.producthunt.com\/products\/framer",
         "tagline": "Design and publish professional sites with AI"
     },
     {
-        "no": 63,
-        "product_name": "heere - Stories Underfoot",
-        "product_url": "https:\/\/www.producthunt.com\/products\/heere-stories-underfoot",
-        "tagline": "history,story,map,travel,tour,explore,guide,citywalk,trip"
-    },
-    {
-        "no": 64,
-        "product_name": "Paperditor \u00c3\u00a2\u00c2\u0080\u00c2\u0093 free Markdown editor",
-        "product_url": "https:\/\/www.producthunt.com\/products\/paperditor-free-markdown-editor",
-        "tagline": "A clean Markdown editor that renders as you type"
-    },
-    {
-        "no": 65,
-        "product_name": "SeeMyUI",
-        "product_url": "https:\/\/www.producthunt.com\/products\/seemyui",
-        "tagline": "Preview your brand on real website layouts before you build."
-    },
-    {
-        "no": 66,
-        "product_name": "MCPScan",
-        "product_url": "https:\/\/www.producthunt.com\/products\/mcpscan",
-        "tagline": "Discover &amp; audit shadow Model Context Protocol servers"
-    },
-    {
-        "no": 67,
-        "product_name": "Duesteer",
-        "product_url": "https:\/\/www.producthunt.com\/products\/duesteer",
-        "tagline": "Chase late invoices without damaging client relationships"
-    },
-    {
-        "no": 68,
-        "product_name": "BentoTerm",
-        "product_url": "https:\/\/www.producthunt.com\/products\/bentoterm",
-        "tagline": "The terminal for watching and talking to your AI agents"
-    },
-    {
-        "no": 69,
-        "product_name": "Draftera",
-        "product_url": "https:\/\/www.producthunt.com\/products\/draftera",
-        "tagline": "Your personal and business documents, finally organized"
-    },
-    {
-        "no": 70,
-        "product_name": "MARKET\/\/SKILLS",
-        "product_url": "https:\/\/www.producthunt.com\/products\/market-skills",
-        "tagline": "China-ready marketing workflows for AI agents"
-    },
-    {
         "no": 71,
-        "product_name": "Mbason-ai",
-        "product_url": "https:\/\/www.producthunt.com\/products\/mbason-ai",
-        "tagline": "AI career tools that tell you what is actually wrong"
+        "product_name": "YouTube to Transcript AI",
+        "product_url": "https:\/\/www.producthunt.com\/products\/youtube-to-transcript-ai",
+        "tagline": "Turn any YouTube video into transcript and AI summaries."
     },
     {
         "no": 72,
-        "product_name": "SkinAI",
-        "product_url": "https:\/\/www.producthunt.com\/products\/skinai",
-        "tagline": "Know your skin before you buy another product"
+        "product_name": "Love Envelope",
+        "product_url": "https:\/\/www.producthunt.com\/products\/love-envelope",
+        "tagline": "Make a love invitation worth opening."
     },
     {
         "no": 73,
-        "product_name": "OwnPay",
-        "product_url": "https:\/\/www.producthunt.com\/products\/ownpay",
-        "tagline": "Self-hosted, open-source payment gateway software"
+        "product_name": "Pathrule Studio",
+        "product_url": "https:\/\/www.producthunt.com\/products\/pathrule",
+        "tagline": "Context and workflows for AI coding agents"
     },
     {
         "no": 74,
-        "product_name": "Temponia",
-        "product_url": "https:\/\/www.producthunt.com\/products\/temponia",
-        "tagline": "Time tracking your AI assistant can use too"
+        "product_name": "Grok 4.6",
+        "product_url": "https:\/\/www.producthunt.com\/products\/grok-4-6-7",
+        "tagline": "Today we are releasing Grok 4.6"
     },
     {
         "no": 75,
-        "product_name": "ClientLane",
-        "product_url": "https:\/\/www.producthunt.com\/products\/clientlane",
-        "tagline": "Simple CRM for freelancers to manage clients and deals"
+        "product_name": "wkearly",
+        "product_url": "https:\/\/www.producthunt.com\/products\/wkearly",
+        "tagline": "The alarm that makes you actually get up"
     },
     {
         "no": 76,
-        "product_name": "IncomeStream",
-        "product_url": "https:\/\/www.producthunt.com\/products\/streamsheet",
-        "tagline": "One income dashboard for creators juggling 4-6 platforms"
+        "product_name": "Social Media Planning Tracker",
+        "product_url": "https:\/\/www.producthunt.com\/products\/social-media-planning-tracker",
+        "tagline": "Plan it, schedule it, don't lose track of it"
     },
     {
         "no": 77,
-        "product_name": "ToolNex",
-        "product_url": "https:\/\/www.producthunt.com\/products\/toolnex",
-        "tagline": "Free Online Tools for Everyday Tasks"
+        "product_name": "NVIDIA Nemotron 3.5 Lightning",
+        "product_url": "https:\/\/www.producthunt.com\/products\/nvidia",
+        "tagline": "Route AI Agent Workloads Across Models "
     },
     {
         "no": 78,
-        "product_name": "KanbanStack",
-        "product_url": "https:\/\/www.producthunt.com\/products\/kanbanstack",
-        "tagline": "Automate your cold emails with Ai"
+        "product_name": "PR Flow",
+        "product_url": "https:\/\/www.producthunt.com\/products\/pr-flow",
+        "tagline": "See which PRs need you, across all your platforms"
     },
     {
         "no": 79,
-        "product_name": "TalkFair",
-        "product_url": "https:\/\/www.producthunt.com\/products\/talkfair",
-        "tagline": "The fair referee for tough conversations"
+        "product_name": "AiScribe - Store your ai coding session",
+        "product_url": "https:\/\/www.producthunt.com\/products\/aiscribe",
+        "tagline": "No paywalls. No limit your sessions. Your data. Your machine"
     },
     {
         "no": 80,
-        "product_name": "InsightLens: AI Doc Analysis",
-        "product_url": "https:\/\/www.producthunt.com\/products\/insightlens-ai-doc-analysis",
-        "tagline": "InsightLens is your personal document intelligence platform"
+        "product_name": "Talentz",
+        "product_url": "https:\/\/www.producthunt.com\/products\/talentz",
+        "tagline": "The signal layer for hiring."
     },
     {
         "no": 81,
-        "product_name": "DuskOS \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Your Autonomous Trading Desk",
-        "product_url": "https:\/\/www.producthunt.com\/products\/duskos-your-autonomous-trading-desk",
-        "tagline": " The Agentic Operating System For Capital"
+        "product_name": "California Housing Dashboard",
+        "product_url": "https:\/\/www.producthunt.com\/products\/california-housing-dashboard",
+        "tagline": "Explore California's Housing Price Patterns."
     },
     {
         "no": 82,
-        "product_name": "Ecom Ratings",
-        "product_url": "https:\/\/www.producthunt.com\/products\/ecom-ratings",
-        "tagline": "Compare ecommerce platforms with real ratings and data"
+        "product_name": " Halff is now on the the iOS App Store",
+        "product_url": "https:\/\/www.producthunt.com\/products\/halff",
+        "tagline": "Track your productivity every halff hour on your phone "
     },
     {
         "no": 83,
-        "product_name": "Zorv",
-        "product_url": "https:\/\/www.producthunt.com\/products\/zorv-2",
-        "tagline": "A calmer business OS for freelancers and agencies"
+        "product_name": "Files Converter",
+        "product_url": "https:\/\/www.producthunt.com\/products\/files-converter",
+        "tagline": "Fast, secure browser-based file conversion"
     },
     {
         "no": 84,
-        "product_name": "Chalk.City",
-        "product_url": "https:\/\/www.producthunt.com\/products\/chalk-city",
-        "tagline": "You get one block in NYC, what are you drawing? "
+        "product_name": "IndexIQ",
+        "product_url": "https:\/\/www.producthunt.com\/products\/indexiq",
+        "tagline": "Grounded Knowledge Layer for Claude, Cursor &amp; your agents"
     },
     {
         "no": 85,
-        "product_name": "cache-assembler",
-        "product_url": "https:\/\/www.producthunt.com\/products\/cache-assembler",
-        "tagline": "Cuts Claude Code and API costs 8.2x by fixing prompt-caching"
+        "product_name": "Repeti",
+        "product_url": "https:\/\/www.producthunt.com\/products\/repeti",
+        "tagline": "Stop relearning. Start retaining."
     },
     {
         "no": 86,
-        "product_name": "wagecheck",
-        "product_url": "https:\/\/www.producthunt.com\/products\/wagecheck",
-        "tagline": "Free UK salary, tax and stamp duty calculators."
+        "product_name": "Pathly",
+        "product_url": "https:\/\/www.producthunt.com\/products\/pathly-3",
+        "tagline": "Job applications: AI filtered you out. AI brings you back!"
     },
     {
         "no": 87,
-        "product_name": "klickleads",
-        "product_url": "https:\/\/www.producthunt.com\/products\/klickleads",
-        "tagline": "Find, filter &amp; export local business leads"
+        "product_name": "Reticket",
+        "product_url": "https:\/\/www.producthunt.com\/products\/reticket",
+        "tagline": "Ticket resale where fake listings are impossible"
     },
     {
         "no": 88,
-        "product_name": "RelicBeam",
-        "product_url": "https:\/\/www.producthunt.com\/products\/relicbeam",
-        "tagline": "Instant file &amp; text sharing via rooms. No accounts, no ads"
+        "product_name": "Agency Rank Tracker",
+        "product_url": "https:\/\/www.producthunt.com\/products\/agency-rank-tracker",
+        "tagline": "Track Google, Local &amp; AI rankings in one dashboard"
     },
     {
         "no": 89,
-        "product_name": "WRAPPLAB",
-        "product_url": "https:\/\/www.producthunt.com\/products\/wrapplab",
-        "tagline": "Screenwriter + Auto production planner for Indie filmmakers"
+        "product_name": "Inspired by Ken",
+        "product_url": "https:\/\/www.producthunt.com\/products\/inspired-by-ken",
+        "tagline": "Timber Candle Holders for Natural Decor"
     },
     {
         "no": 90,
-        "product_name": "Many Beginnings",
-        "product_url": "https:\/\/www.producthunt.com\/products\/many-beginnings",
-        "tagline": "An Interactive Museum of Ideas"
+        "product_name": "Ninja Era",
+        "product_url": "https:\/\/www.producthunt.com\/products\/railway-2",
+        "tagline": "An anime-style RPG inspired by Genshin Impact"
     },
     {
         "no": 91,
-        "product_name": "Dusty",
-        "product_url": "https:\/\/www.producthunt.com\/products\/dusty",
-        "tagline": "AI Mac storage cleaner explaining files before deleting them"
+        "product_name": "DeepLock \u00c3\u00a2\u00c2\u0080\u00c2\u0093 Website Blocker &amp; Focus Mode",
+        "product_url": "https:\/\/www.producthunt.com\/products\/deeplock-website-blocker-focus-mode",
+        "tagline": "Block sites with focus sessions, time limits and a PIN lock."
     },
     {
         "no": 92,
-        "product_name": "Chameleon Sniper: Offline FPS",
-        "product_url": "https:\/\/www.producthunt.com\/products\/chameleon-sniper-offline-fps",
-        "tagline": "Hunt enemies that blend into the map"
+        "product_name": "Cash For Cars Sydney",
+        "product_url": "https:\/\/www.producthunt.com\/products\/cash-for-cars-sydney-2",
+        "tagline": "Sell Your Unwanted Car Today \u00c3\u00a2\u00c2\u0080\u00c2\u0093 Fast Collection, Fair Cash!"
     },
     {
         "no": 93,
-        "product_name": "Sellfold",
-        "product_url": "https:\/\/www.producthunt.com\/products\/sellfold",
-        "tagline": "Turn product photos into marketplace-ready creative"
+        "product_name": "apexgeo.my",
+        "product_url": "https:\/\/www.producthunt.com\/products\/apexgeo-my",
+        "tagline": "Entity Architecture for the AI Search Era"
     },
     {
         "no": 94,
-        "product_name": "RotorRun",
-        "product_url": "https:\/\/www.producthunt.com\/products\/rotorrun",
-        "tagline": "The all-in-one operations app for drone pilots"
+        "product_name": "Boardgammon",
+        "product_url": "https:\/\/www.producthunt.com\/products\/boardgammon",
+        "tagline": "Provably fair backgammon with expert AI and analysis"
     },
     {
         "no": 95,
-        "product_name": "Virelo",
-        "product_url": "https:\/\/www.producthunt.com\/products\/virelo",
-        "tagline": "Turn local video folders into a private streaming library."
+        "product_name": "Instagram Bulk Deleter &amp; Unliker Pro",
+        "product_url": "https:\/\/www.producthunt.com\/products\/instagram-bulk-deleter-unliker-pro",
+        "tagline": "Bulk clean your Instagram Like, Repost, Comment in seconds. "
     },
     {
         "no": 96,
-        "product_name": "Fronti\u00c3\u0083\u00c2\u00a8re AI",
-        "product_url": "https:\/\/www.producthunt.com\/products\/frontiere-ai",
-        "tagline": "Make open-source AI models GDPR Compliant"
+        "product_name": "BookCraftr",
+        "product_url": "https:\/\/www.producthunt.com\/products\/bookcraftr",
+        "tagline": "Write, format and publish your book with confidence"
     },
     {
         "no": 97,
-        "product_name": "Sshly \u00c3\u00a2\u00c2\u0080\u00c2\u0094 SSH, made friendly.",
-        "product_url": "https:\/\/www.producthunt.com\/products\/sshly-ssh-made-friendly",
-        "tagline": "SSH, SFTP &amp; tunnels for Mac \u00c3\u00a2\u00c2\u0080\u00c2\u0094 with safe AI access"
+        "product_name": "Vashikaran Specialist in Kolkata ",
+        "product_url": "https:\/\/www.producthunt.com\/products\/vashikaran-specialist-in-kolkata",
+        "tagline": "Muslim Vashikaran Specialist Astrologer in Kolkata"
     },
     {
         "no": 98,
-        "product_name": "LandingVector",
-        "product_url": "https:\/\/www.producthunt.com\/products\/landingvector",
-        "tagline": "Helping western teachers to find jobs in China"
+        "product_name": "Crypto Wallet",
+        "product_url": "https:\/\/www.producthunt.com\/products\/bidbits-ai-metaverse-solutions",
+        "tagline": "Build a Wallet Designed Around Your Digital Asset Platform"
     },
     {
         "no": 99,
-        "product_name": "Binary Converter ",
-        "product_url": "https:\/\/www.producthunt.com\/products\/binary-converter-2",
-        "tagline": "Convert text, binary, decimal, hex &amp; octal instantly. "
+        "product_name": "DCA Trading Bot Development",
+        "product_url": "https:\/\/www.producthunt.com\/products\/addus-technologies",
+        "tagline": "Automate Crypto Trading with Smarter DCA Strategies"
     },
     {
         "no": 100,
-        "product_name": "ScreenFlow",
-        "product_url": "https:\/\/www.producthunt.com\/products\/screenflow-10",
-        "tagline": "The fastest privacy-first browser screen recorder."
+        "product_name": "FastFinance Multi-Tool Suite",
+        "product_url": "https:\/\/www.producthunt.com\/products\/fastfinance-multi-tool-suite",
+        "tagline": "Free private US mortgage, finance &amp; fitness web utilities "
     }
 ]
