@@ -1,0 +1,302 @@
+[
+    {
+        "no": 1001,
+        "product_name": "DeployOS",
+        "product_url": "https:\/\/www.producthunt.com\/products\/deployos",
+        "tagline": "Your own deploy platform, on a $5 server. Pay once."
+    },
+    {
+        "no": 1002,
+        "product_name": "wow launch",
+        "product_url": "https:\/\/www.producthunt.com\/products\/wow-launch",
+        "tagline": "productivity at launch"
+    },
+    {
+        "no": 1003,
+        "product_name": "Core Listing",
+        "product_url": "https:\/\/www.producthunt.com\/products\/core-listing",
+        "tagline": "Commercial Real Estate Listing Software"
+    },
+    {
+        "no": 1004,
+        "product_name": "Entreveloper's EV-Puzzles",
+        "product_url": "https:\/\/www.producthunt.com\/products\/entreveloper-s-ev-puzzles",
+        "tagline": "AI-Native Puzzles For WordPress Publishers"
+    },
+    {
+        "no": 1005,
+        "product_name": "Odwrotna Mapa",
+        "product_url": "https:\/\/www.producthunt.com\/products\/odwrotna-mapa",
+        "tagline": "Turn conventional thinking about maps on its head"
+    },
+    {
+        "no": 1006,
+        "product_name": "Odyssey Framework",
+        "product_url": "https:\/\/www.producthunt.com\/products\/odyssey-framework",
+        "tagline": "Make Better Business Decisions"
+    },
+    {
+        "no": 1007,
+        "product_name": "The Daily FM",
+        "product_url": "https:\/\/www.producthunt.com\/products\/the-daily-fm",
+        "tagline": "Podcast Anything"
+    },
+    {
+        "no": 1008,
+        "product_name": "DispatchSEO",
+        "product_url": "https:\/\/www.producthunt.com\/products\/dispatchseo",
+        "tagline": "The open-source SEO manager your coding agent runs"
+    },
+    {
+        "no": 1009,
+        "product_name": "AbodeVid",
+        "product_url": "https:\/\/www.producthunt.com\/products\/abodevid",
+        "tagline": "Turn Listing Photos into Complete Property Campaigns"
+    },
+    {
+        "no": 1010,
+        "product_name": "PixPrep - Free Image Optimizer",
+        "product_url": "https:\/\/www.producthunt.com\/products\/pixprep-free-image-optimizer",
+        "tagline": "Compress and optimize images free, right in your browser"
+    },
+    {
+        "no": 1011,
+        "product_name": "Listifying",
+        "product_url": "https:\/\/www.producthunt.com\/products\/listifying",
+        "tagline": "Directory submissions on autopilot for busy saas founders"
+    },
+    {
+        "no": 1012,
+        "product_name": "Lattecino: the room is the network ",
+        "product_url": "https:\/\/www.producthunt.com\/products\/lattecino-the-third-place-measured",
+        "tagline": "Finally, permission to say hello in the caf\u00c3\u0083\u00c2\u00a9 you're in"
+    },
+    {
+        "no": 1013,
+        "product_name": "ido-Gen",
+        "product_url": "https:\/\/www.producthunt.com\/products\/ido-gen",
+        "tagline": "AI\u00c3\u00a7\u00c2\u0094\u00c2\u009f\u00c3\u00a6\u00c2\u0088\u00c2\u0090CAD\u00c3\u00a5\u00c2\u008f\u00c2\u00af\u00c3\u00a7\u00c2\u00bc\u00c2\u0096\u00c3\u00a8\u00c2\u00be\u00c2\u0091\u00c3\u00a4\u00c2\u00b8\u00c2\u0089\u00c3\u00a7\u00c2\u00bb\u00c2\u00b4\u00c3\u00a6\u00c2\u00a8\u00c2\u00a1\u00c3\u00a5\u00c2\u009e\u00c2\u008b"
+    },
+    {
+        "no": 1014,
+        "product_name": "Niki",
+        "product_url": "https:\/\/www.producthunt.com\/products\/niki-2",
+        "tagline": "Describe it. Niki ships the pull request"
+    },
+    {
+        "no": 1015,
+        "product_name": "The Floor",
+        "product_url": "https:\/\/www.producthunt.com\/products\/the-floor",
+        "tagline": "Run your own AI trading desk on your own machine"
+    },
+    {
+        "no": 1016,
+        "product_name": "Tented AI",
+        "product_url": "https:\/\/www.producthunt.com\/products\/tented",
+        "tagline": "AI runs your email marketing, landing pages &amp; forms"
+    },
+    {
+        "no": 1017,
+        "product_name": "Prose Coach",
+        "product_url": "https:\/\/www.producthunt.com\/products\/prose-coach",
+        "tagline": "Write with AI. Just don't sound like it."
+    },
+    {
+        "no": 1018,
+        "product_name": "Frontrunners.io",
+        "product_url": "https:\/\/www.producthunt.com\/products\/frontrunners-io",
+        "tagline": "Find jobs before everyone else"
+    },
+    {
+        "no": 1019,
+        "product_name": "Glycogo",
+        "product_url": "https:\/\/www.producthunt.com\/products\/glycogo",
+        "tagline": "Nutrition that adapts to your training"
+    },
+    {
+        "no": 1020,
+        "product_name": "Summarly \u00c3\u00a2\u00c2\u0080\u00c2\u0094 AI Meeting Assistant",
+        "product_url": "https:\/\/www.producthunt.com\/products\/brieflyai-ai-meeting-assistant",
+        "tagline": "Instantly turn long meetings into clear text summaries."
+    },
+    {
+        "no": 1021,
+        "product_name": "Wando",
+        "product_url": "https:\/\/www.producthunt.com\/products\/wando",
+        "tagline": "AI that answers WhatsApp for small businesses in Spanish"
+    },
+    {
+        "no": 1022,
+        "product_name": "PokerMTT Pro",
+        "product_url": "https:\/\/www.producthunt.com\/products\/pokermtt-pro",
+        "tagline": "MTT poker trainer with a daily method \u00c3\u00a2\u00c2\u0080\u00c2\u0094 one-time payment"
+    },
+    {
+        "no": 1023,
+        "product_name": "SahraSafar",
+        "product_url": "https:\/\/www.producthunt.com\/products\/sahrasafar",
+        "tagline": "AI-Native OTA"
+    },
+    {
+        "no": 1024,
+        "product_name": "Hedgepal",
+        "product_url": "https:\/\/www.producthunt.com\/products\/hedgepal-ai-calorie-counter",
+        "tagline": "Calorie tracking with a hungry hedgehog by your side"
+    },
+    {
+        "no": 1025,
+        "product_name": "Blank Invoice Maker",
+        "product_url": "https:\/\/www.producthunt.com\/products\/blank-invoice-maker",
+        "tagline": "Free, no-signup invoice generator \u00c3\u00a2\u00c2\u0080\u00c2\u0094 100% in your browser"
+    },
+    {
+        "no": 1026,
+        "product_name": "DeltaMax Product Solution",
+        "product_url": "https:\/\/www.producthunt.com\/products\/deltamax-product-solution",
+        "tagline": "Intelligent Data Quality and Trust Tool"
+    },
+    {
+        "no": 1027,
+        "product_name": "Meterless.ai",
+        "product_url": "https:\/\/www.producthunt.com\/products\/meterless-ai",
+        "tagline": "Run AI locally. Own everything it does."
+    },
+    {
+        "no": 1028,
+        "product_name": "AI Meeting Assistant",
+        "product_url": "https:\/\/www.producthunt.com\/products\/ai-meeting-assistant",
+        "tagline": "Prepare, capture, and follow up \u00c3\u00a2\u00c2\u0080\u00c2\u0094 without a meeting bot"
+    },
+    {
+        "no": 1029,
+        "product_name": "Flown",
+        "product_url": "https:\/\/www.producthunt.com\/products\/flown",
+        "tagline": "Every flight you've ever taken, on one private map"
+    },
+    {
+        "no": 1030,
+        "product_name": "The First Sector",
+        "product_url": "https:\/\/www.producthunt.com\/products\/the-first-sector",
+        "tagline": "Run an F1 prediction league with your mates"
+    },
+    {
+        "no": 1031,
+        "product_name": "25 AI Marketing Specialists from $97\/mo",
+        "product_url": "https:\/\/www.producthunt.com\/products\/25-ai-marketing-specialists-from-97-mo",
+        "tagline": "Agency-level marketing, without the agency.  "
+    },
+    {
+        "no": 1032,
+        "product_name": "Vaultless \u00c3\u00a2\u00c2\u0080\u00c2\u0094 OAuth, Zero Complexity",
+        "product_url": "https:\/\/www.producthunt.com\/products\/vaultless-oauth-zero-complexity",
+        "tagline": "Auth without the headache"
+    },
+    {
+        "no": 1033,
+        "product_name": "CycleDoc",
+        "product_url": "https:\/\/www.producthunt.com\/products\/cycledoc",
+        "tagline": "Your entire residency\/medical application in one dashboard"
+    },
+    {
+        "no": 1034,
+        "product_name": "Trick \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Task Manager, Planner &amp; Timer",
+        "product_url": "https:\/\/www.producthunt.com\/products\/trick",
+        "tagline": "Simplify your workflow."
+    },
+    {
+        "no": 1035,
+        "product_name": "AI Rule Engine",
+        "product_url": "https:\/\/www.producthunt.com\/products\/ai-rule-engine",
+        "tagline": "Give AI agents real business rules - not their best guess."
+    },
+    {
+        "no": 1036,
+        "product_name": "CryptoTaxEdge",
+        "product_url": "https:\/\/www.producthunt.com\/products\/cryptotaxedge",
+        "tagline": "Crypto tax classification API for devs."
+    },
+    {
+        "no": 1037,
+        "product_name": "SlideSieve",
+        "product_url": "https:\/\/www.producthunt.com\/products\/slidesieve",
+        "tagline": "Auto-Capture Course Slides to PDF, No Upload"
+    },
+    {
+        "no": 1038,
+        "product_name": "Flowersnext",
+        "product_url": "https:\/\/www.producthunt.com\/products\/send-flowers-to-uae",
+        "tagline": "flowers"
+    },
+    {
+        "no": 1039,
+        "product_name": "SetAIComply",
+        "product_url": "https:\/\/www.producthunt.com\/products\/setaicomply",
+        "tagline": "EU AI Act compliance for SMEs \u00c3\u00a2\u00c2\u0080\u00c2\u0094 from \u00c3\u00a2\u00c2\u0082\u00c2\u00ac0, 24 languages"
+    },
+    {
+        "no": 1040,
+        "product_name": "Selluna.ai",
+        "product_url": "https:\/\/www.producthunt.com\/products\/selluna-ai",
+        "tagline": "Turn product URLs into marketplace-ready image sets"
+    },
+    {
+        "no": 1041,
+        "product_name": "Luten",
+        "product_url": "https:\/\/www.producthunt.com\/products\/luten",
+        "tagline": "Sound that learns what calms and focuses you"
+    },
+    {
+        "no": 1042,
+        "product_name": "Kineclip",
+        "product_url": "https:\/\/www.producthunt.com\/products\/kineclip",
+        "tagline": "Faceless TikTok &amp; YouTube channels that run themselves"
+    },
+    {
+        "no": 1043,
+        "product_name": "Pixo",
+        "product_url": "https:\/\/www.producthunt.com\/products\/pixo-6",
+        "tagline": "Free image &amp; PDF tools that never upload your files"
+    },
+    {
+        "no": 1044,
+        "product_name": "Ricchezza Coin",
+        "product_url": "https:\/\/www.producthunt.com\/products\/ricchezza-coin",
+        "tagline": "The Next-Gen Privacy Cryptocurrency | Join Waitlist"
+    },
+    {
+        "no": 1045,
+        "product_name": "RGbots ",
+        "product_url": "https:\/\/www.producthunt.com\/products\/rgbots",
+        "tagline": "RG Bots \u00c3\u00a2\u00c2\u0080\u00c2\u0094 Safe 24\/7 Mobile Game Bots "
+    },
+    {
+        "no": 1046,
+        "product_name": "ROIWidget \u00c3\u00a2\u00c2\u0080\u00c2\u0094 White",
+        "product_url": "https:\/\/www.producthunt.com\/products\/roiwidget-white",
+        "tagline": "White-label ROI calculators for your clients in 60 seconds"
+    },
+    {
+        "no": 1047,
+        "product_name": "GladeForge",
+        "product_url": "https:\/\/www.producthunt.com\/products\/gladeforge",
+        "tagline": "GladeForge builds niche B2B lead lists per order."
+    },
+    {
+        "no": 1048,
+        "product_name": "ANCBuddy for Bose QC Ultra",
+        "product_url": "https:\/\/www.producthunt.com\/products\/ancbuddy-for-bose-qc-ultra",
+        "tagline": "Control Bose QC Ultra from your macOS menu bar"
+    },
+    {
+        "no": 1049,
+        "product_name": "OwlVigil",
+        "product_url": "https:\/\/www.producthunt.com\/products\/owlvigil",
+        "tagline": "Control AI access, cost, usage, and governance in one place"
+    },
+    {
+        "no": 1050,
+        "product_name": "OpenClip",
+        "product_url": "https:\/\/www.producthunt.com\/products\/openclip",
+        "tagline": "One studio to clip, repurpose, and create video"
+    }
+]
