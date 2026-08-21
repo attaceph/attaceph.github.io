@@ -15,9 +15,9 @@
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "https://attaceph.github.io/ceptize/assets/assets/images/logo/censhipai-logo.png";
+      logo.src = "https://attaceph.github.io/ceptize/assets/images/logo/censhipai-logo.png";
     } else {
-      logo.src = "https://attaceph.github.io/ceptize/assets/assets/images/logo/censhipai-logo-w.png";
+      logo.src = "https://attaceph.github.io/ceptize/assets/images/logo/censhipai-logo-w.png";
     }
 
     // show or hide the back-top-top button
